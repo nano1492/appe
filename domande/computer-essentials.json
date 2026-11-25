@@ -1,0 +1,272 @@
+{
+  "modulo": "computer-essentials",
+  "nome": "Computer Essentials",
+  "traduzione": "Fondamenti del computer",
+  "colore": "#5ef1c9",
+  "icona": "cpu",
+  "fonte": {
+    "documento": "ICDL Digital Student - Computer Essentials - Syllabus 1.0, versione italiana (AICA, Ref. ECDL – M01V1.0IT)",
+    "versione": "1.0",
+    "url": "https://www.icdl.it/risorse/47e78ecb527a4210526ac3be.pdf"
+  },
+  "domande": [
+    {
+      "id": "CE-004", "tipo": "scelta", "argomento": "1.1 ICT",
+      "testo": "Che cosa vuol dire la sigla ICT (Information and Communication Technology)?",
+      "risposte": ["Internet, computer e telefoni", "Tecnologie dell'informazione e della comunicazione", "Istituto per il controllo della tecnologia", "Informatica con le tastiere"],
+      "giusta": 1,
+      "spiegazione": "ICT sono le tecnologie che servono a gestire le informazioni e a comunicare: computer, reti, Internet, smartphone. Non è solo un elenco di oggetti, ma tutto l'insieme di queste tecnologie."
+    },
+    {
+      "id": "CE-001", "tipo": "scelta", "argomento": "1.2 Hardware",
+      "testo": "Quale parte del computer esegue i calcoli e le istruzioni dei programmi?",
+      "risposte": ["La tastiera", "La CPU (processore)", "Lo schermo", "Il mouse"],
+      "giusta": 1,
+      "spiegazione": "La CPU è il \"cervello\" del computer: esegue le istruzioni dei programmi e fa i calcoli. Tastiera e mouse servono per dare comandi, lo schermo per vedere."
+    },
+    {
+      "id": "CE-006", "tipo": "scelta", "argomento": "1.2 Hardware",
+      "testo": "Che cosa succede ai dati che si trovano solo nella memoria RAM quando spegni il computer?",
+      "risposte": ["Si cancellano", "Restano salvati per sempre", "Vengono stampati", "Vengono spostati su Internet"],
+      "giusta": 0,
+      "spiegazione": "La RAM è una memoria veloce ma temporanea: quando spegni il computer si svuota. Per non perdere il lavoro devi salvarlo sulla memoria di massa, per esempio il disco."
+    },
+    {
+      "id": "CE-007", "tipo": "scelta", "argomento": "1.2 Hardware",
+      "testo": "Quale di queste porte è fatta apposta per portare immagini e suono dal computer a un televisore o a un monitor?",
+      "risposte": ["La porta Ethernet (per la rete)", "La presa delle cuffie", "La porta HDMI", "La presa di corrente"],
+      "giusta": 2,
+      "spiegazione": "La porta HDMI trasmette insieme video e audio, per questo si usa con monitor e televisori. La porta Ethernet serve per collegarsi alla rete con il cavo."
+    },
+    {
+      "id": "CE-009", "tipo": "scelta", "argomento": "1.3 Software e licenze",
+      "testo": "Che cos'è la EULA (End-User License Agreement) di un programma?",
+      "risposte": ["Un tipo di virus", "La porta per collegare il programma", "Il contratto di licenza che l'utente accetta per poter usare il programma", "Il nome del file che avvia il programma"],
+      "giusta": 2,
+      "spiegazione": "La EULA è il «contratto con l'utente finale»: dice come puoi usare il programma. Il software deve avere una licenza prima di essere usato."
+    },
+    {
+      "id": "CE-010", "tipo": "scelta", "argomento": "1.3 Software e licenze",
+      "testo": "Che cosa caratterizza un programma open source (a codice aperto)?",
+      "risposte": ["Il suo codice è pubblico: chiunque può vederlo, modificarlo e condividerlo", "Funziona solo per 30 giorni", "Si può usare solo pagando un abbonamento", "Funziona solo senza Internet"],
+      "giusta": 0,
+      "spiegazione": "Nel software open source il codice, cioè le istruzioni del programma, è aperto a tutti: si può studiare, modificare e condividere. Quello che funziona per pochi giorni è una versione di prova."
+    },
+    {
+      "id": "CE-011", "tipo": "scelta", "argomento": "1.4 Avvio, spegnimento",
+      "testo": "Qual è il modo corretto per spegnere un computer con Windows?",
+      "risposte": ["Staccare la spina", "Tenere premuto a lungo il pulsante di accensione", "Spegnere solo lo schermo", "Start, poi il pulsante Arresta (l'icona di accensione) e infine Arresta il sistema"],
+      "giusta": 3,
+      "spiegazione": "Con Start, il pulsante Arresta e poi Arresta il sistema, Windows chiude i programmi e salva le sue impostazioni prima di spegnersi. Staccare la spina può far perdere dati."
+    },
+    {
+      "id": "CE-012", "tipo": "scelta", "argomento": "2.1 Desktop e icone",
+      "testo": "A che cosa serve la barra delle applicazioni di Windows, quella in basso sullo schermo?",
+      "risposte": ["A mostrare i programmi aperti e ad avviarne altri", "A stampare i documenti", "A scrivere testi", "A svuotare il Cestino"],
+      "giusta": 0,
+      "spiegazione": "Nella barra delle applicazioni ci sono il pulsante Start e le icone dei programmi: da lì apri i programmi e passi da uno all'altro."
+    },
+    {
+      "id": "CE-013", "tipo": "vf", "argomento": "2.1 Desktop e icone",
+      "testo": "Se elimini dal desktop un collegamento (l'icona con la piccola freccia), elimini anche il programma a cui porta.",
+      "giusta": false,
+      "spiegazione": "Falso. Il collegamento è solo una scorciatoia che porta al programma o al file: se lo elimini, il programma resta dov'era."
+    },
+    {
+      "id": "CE-014", "tipo": "scelta", "argomento": "2.2 Uso delle finestre",
+      "testo": "Quale combinazione di tasti ti fa passare velocemente da una finestra aperta a un'altra?",
+      "risposte": ["Ctrl + C", "Ctrl + Z", "Alt + Tab", "Maiusc + Canc"],
+      "giusta": 2,
+      "spiegazione": "Tenendo premuto Alt e premendo Tab scegli tra le finestre aperte. Ctrl + C copia e Ctrl + Z annulla l'ultima azione."
+    },
+    {
+      "id": "CE-037", "tipo": "vf", "argomento": "2.2 Uso delle finestre",
+      "testo": "La barra del titolo è la striscia in alto nella finestra dove leggi il nome del file e del programma aperti.",
+      "giusta": true,
+      "spiegazione": "Vero. In alto c'è la barra del titolo; in basso la barra di stato mostra informazioni sul documento, e la barra di scorrimento serve a muoverti nel contenuto."
+    },
+    {
+      "id": "CE-015", "tipo": "scelta", "argomento": "2.3 Strumenti e impostazioni",
+      "testo": "Un programma si è bloccato e non risponde più. Quale strumento di Windows usi per chiuderlo?",
+      "risposte": ["Esplora file", "Gestione attività", "Il Cestino", "Il Blocco note"],
+      "giusta": 1,
+      "spiegazione": "Gestione attività (si apre con Ctrl + Maiusc + Esc) mostra i programmi in uso e permette di chiudere quello bloccato con «Termina attività»."
+    },
+    {
+      "id": "CE-016", "tipo": "scelta", "argomento": "2.3 Strumenti e impostazioni",
+      "testo": "In Windows 11, dove vedi quanta RAM ha il computer e quale versione del sistema operativo usa?",
+      "risposte": ["Nel Cestino", "In Impostazioni, Sistema, Informazioni", "Nella barra del titolo di una finestra", "Nella coda di stampa"],
+      "giusta": 1,
+      "spiegazione": "La pagina Informazioni delle Impostazioni mostra i dati principali del computer, come la RAM installata e la versione di Windows."
+    },
+    {
+      "id": "CE-038", "tipo": "scelta", "argomento": "2.3 Strumenti e impostazioni",
+      "testo": "Prima di staccare una chiavetta USB dal computer, che cosa conviene fare?",
+      "risposte": ["Spegnere lo schermo", "Usare «Espelli» (rimozione sicura) e aspettare che Windows dica che si può staccare", "Svuotare il Cestino", "Premere Ctrl + Z"],
+      "giusta": 1,
+      "spiegazione": "Se stacchi la chiavetta mentre il computer ci sta ancora scrivendo, puoi perdere o rovinare i file. Con «Espelli» Windows finisce prima il lavoro e poi ti avvisa che puoi staccarla."
+    },
+    {
+      "id": "CE-017", "tipo": "scelta", "argomento": "3.1 Operare con il testo",
+      "testo": "Hai catturato l'immagine dello schermo (per esempio con il tasto Stamp). Come la inserisci in un documento di testo?",
+      "risposte": ["Con Salva (Ctrl + S)", "Con Annulla (Ctrl + Z)", "Con Trova (Ctrl + F)", "Con Incolla (Ctrl + V)"],
+      "giusta": 3,
+      "spiegazione": "L'immagine catturata (con il tasto Stamp o con lo Strumento di cattura) viene copiata negli appunti, quindi basta incollarla nel documento con Ctrl + V."
+    },
+    {
+      "id": "CE-018", "tipo": "scelta", "argomento": "3.2 Stampare",
+      "testo": "Che cos'è la stampante predefinita?",
+      "risposte": ["L'unica stampante che si può collegare al computer", "Una stampante che stampa solo a colori", "La stampante che il computer usa in automatico, se non ne scegli un'altra", "La stampante più veloce del negozio"],
+      "giusta": 2,
+      "spiegazione": "Se hai più stampanti installate, la predefinita è quella che il computer sceglie in automatico. Puoi cambiarla dalle impostazioni delle stampanti."
+    },
+    {
+      "id": "CE-019", "tipo": "vf", "argomento": "3.2 Stampare",
+      "testo": "Se hai mandato in stampa un documento per sbaglio, puoi annullare la stampa dalla coda di stampa.",
+      "giusta": true,
+      "spiegazione": "Vero. Nella coda di stampa vedi i documenti in attesa e puoi metterli in pausa, riavviarli o annullarli."
+    },
+    {
+      "id": "CE-020", "tipo": "scelta", "argomento": "4.1 File e cartelle",
+      "testo": "Quale di questi file è quasi sicuramente un'immagine?",
+      "risposte": ["compiti.docx", "musica.mp3", "voti.xlsx", "vacanze.jpg"],
+      "giusta": 3,
+      "spiegazione": "L'estensione, cioè la parte dopo il punto, dice il tipo di file: .jpg è un'immagine. .docx è un documento di testo, .mp3 un audio e .xlsx un foglio di calcolo."
+    },
+    {
+      "id": "CE-021", "tipo": "scelta", "argomento": "4.1 File e cartelle",
+      "testo": "Quale nome è il più adatto per una cartella con le ricerche di storia di quest'anno?",
+      "risposte": ["cartella1", "Ricerche storia 2026", "aaa", "Nuova cartella (3)"],
+      "giusta": 1,
+      "spiegazione": "Un nome che descrive il contenuto ti aiuta a ritrovare subito la cartella. Nomi come «cartella1» o «aaa» non dicono che cosa c'è dentro."
+    },
+    {
+      "id": "CE-022", "tipo": "scelta", "argomento": "4.1 File e cartelle",
+      "testo": "In Esplora file cerchi *.pdf. Che cosa trova l'asterisco (il carattere jolly)?",
+      "risposte": ["Solo un file che si chiama esattamente «pdf»", "Tutti i file con estensione .pdf, qualunque sia il nome", "Solo le cartelle", "Solo i file nel Cestino"],
+      "giusta": 1,
+      "spiegazione": "Il carattere jolly * sostituisce qualsiasi gruppo di caratteri (lettere, numeri…): *.pdf vuol dire «qualunque nome che finisce con .pdf»."
+    },
+    {
+      "id": "CE-039", "tipo": "scelta", "argomento": "4.1 File e cartelle",
+      "testo": "In Esplora file, quale visualizzazione mostra in colonne il nome, la data di modifica, il tipo e la dimensione di ogni file?",
+      "risposte": ["Icone grandi", "Riquadri", "Dettagli", "Icone piccole"],
+      "giusta": 2,
+      "spiegazione": "La visualizzazione Dettagli mette le informazioni di ogni file in colonne. Le visualizzazioni a icone mostrano soprattutto le immagini dei file."
+    },
+    {
+      "id": "CE-023", "tipo": "scelta", "argomento": "4.2 Organizzare file e cartelle",
+      "testo": "In Esplora file, quale tasto tieni premuto per selezionare più file NON vicini tra loro, cliccandoli uno alla volta?",
+      "risposte": ["Ctrl", "Maiusc", "Alt", "Esc"],
+      "giusta": 0,
+      "spiegazione": "Con Ctrl aggiungi alla selezione un file alla volta, anche se non sono vicini. Con Maiusc invece selezioni tutti i file vicini tra il primo e l'ultimo che clicchi."
+    },
+    {
+      "id": "CE-024", "tipo": "vf", "argomento": "4.2 Organizzare file e cartelle",
+      "testo": "Di solito un file eliminato dal disco del computer finisce nel Cestino, da cui si può ripristinare.",
+      "giusta": true,
+      "spiegazione": "Vero. Il Cestino tiene i file eliminati finché non lo svuoti: con Ripristina il file torna nella sua posizione originale."
+    },
+    {
+      "id": "CE-040", "tipo": "scelta", "argomento": "4.2 Organizzare file e cartelle",
+      "testo": "In Esplora file, con la visualizzazione Dettagli, come metti i file in ordine di dimensione?",
+      "risposte": ["Clicchi sull'intestazione della colonna Dimensione; cliccando di nuovo inverti l'ordine", "Rinomini tutti i file", "Svuoti il Cestino", "Premi Ctrl + Z"],
+      "giusta": 0,
+      "spiegazione": "Cliccando sull'intestazione di una colonna (Nome, Ultima modifica, Tipo, Dimensione) i file si ordinano in base a quella. Un secondo clic sulla stessa colonna inverte l'ordine: da crescente a decrescente o al contrario."
+    },
+    {
+      "id": "CE-025", "tipo": "scelta", "argomento": "4.3 Supporti di memoria e compressione",
+      "testo": "Quale di queste capacità di memoria è la più grande?",
+      "risposte": ["1 MB (megabyte)", "1 KB (kilobyte)", "1 GB (gigabyte)", "1 TB (terabyte)"],
+      "giusta": 3,
+      "spiegazione": "Dal più piccolo al più grande: KB, MB, GB, TB. Ogni unità vale circa mille volte quella prima."
+    },
+    {
+      "id": "CE-026", "tipo": "scelta", "argomento": "4.3 Supporti di memoria e compressione",
+      "testo": "A che cosa serve comprimere file e cartelle, per esempio in un file .zip?",
+      "risposte": ["A cancellarli per sempre", "A renderli più piccoli, così occupano meno spazio e si inviano più facilmente", "A proteggerli dai virus", "A stamparli più in fretta"],
+      "giusta": 1,
+      "spiegazione": "La compressione riduce la dimensione dei file e li raccoglie in un unico archivio. Per usarli di nuovo li estrai."
+    },
+    {
+      "id": "CE-041", "tipo": "vf", "argomento": "4.3 Supporti di memoria e compressione",
+      "testo": "Con un'unità di memorizzazione online (nel cloud) puoi salvare i file su Internet e aprirli anche da un altro dispositivo.",
+      "giusta": true,
+      "spiegazione": "Vero. L'unità online è un supporto di memoria che sta su Internet: i file restano lì e li ritrovi da qualsiasi dispositivo collegato con il tuo account."
+    },
+    {
+      "id": "CE-027", "tipo": "scelta", "argomento": "5.1 Concetti di reti",
+      "testo": "Che cos'è una intranet?",
+      "risposte": ["Una rete privata usata solo dentro un'organizzazione, come un'azienda o una scuola", "Un altro nome del Wi-Fi", "Un tipo di virus", "Un programma per scrivere email"],
+      "giusta": 0,
+      "spiegazione": "Una intranet funziona come Internet ma è privata: possono usarla solo le persone di quell'organizzazione."
+    },
+    {
+      "id": "CE-029", "tipo": "scelta", "argomento": "5.1 Concetti di reti",
+      "testo": "Con quale unità si misura la velocità di trasferimento dei dati in una rete?",
+      "risposte": ["In gigabyte (GB)", "In bit al secondo (bps, per esempio Mbps)", "In pixel", "In watt"],
+      "giusta": 1,
+      "spiegazione": "La velocità si misura in bit al secondo: Kbps, Mbps, Gbps. I gigabyte invece misurano quanto spazio c'è in una memoria."
+    },
+    {
+      "id": "CE-030", "tipo": "scelta", "argomento": "5.2 Accesso a una rete",
+      "testo": "Che cos'è un ISP (Internet Service Provider)?",
+      "risposte": ["Un programma antivirus", "Un tipo di cavo", "Una parte del processore", "L'azienda che ti fornisce l'accesso a Internet"],
+      "giusta": 3,
+      "spiegazione": "L'ISP è il fornitore di Internet. Quando scegli un abbonamento conviene guardare la velocità di download e di upload, i limiti di dati e il costo."
+    },
+    {
+      "id": "CE-031", "tipo": "vf", "argomento": "5.2 Accesso a una rete",
+      "testo": "Una rete Wi-Fi aperta, cioè senza password, è sicura quanto una rete protetta.",
+      "giusta": false,
+      "spiegazione": "Falso. In una rete aperta chiunque può collegarsi e i tuoi dati sono meno protetti. Una rete protetta chiede una password."
+    },
+    {
+      "id": "CE-032", "tipo": "scelta", "argomento": "6.1 Protezione dei dati su computer e dispositivi elettronici",
+      "testo": "Quale di queste password è la più sicura?",
+      "risposte": ["123456", "Gatto!Blu7#Lago", "mario2014", "password"],
+      "giusta": 1,
+      "spiegazione": "Una password sicura è lunga e mescola lettere maiuscole e minuscole, numeri e simboli. Non va condivisa e va cambiata ogni tanto."
+    },
+    {
+      "id": "CE-033", "tipo": "scelta", "argomento": "6.1 Protezione dei dati su computer e dispositivi elettronici",
+      "testo": "A che cosa serve un firewall (muro di protezione)?",
+      "risposte": ["A raffreddare il processore", "A velocizzare la stampa", "A controllare il traffico tra il computer e la rete, bloccando gli accessi non autorizzati", "A comprimere i file"],
+      "giusta": 2,
+      "spiegazione": "Il firewall fa da guardiano tra il computer e la rete: lascia passare le comunicazioni permesse e blocca quelle sospette."
+    },
+    {
+      "id": "CE-034", "tipo": "scelta", "argomento": "6.2 Malware",
+      "testo": "Che cos'è un trojan (cavallo di Troia)?",
+      "risposte": ["Un malware nascosto dentro un programma che sembra utile", "Un antivirus gratuito", "Un tipo di stampante", "Un cavo per collegare il computer"],
+      "giusta": 0,
+      "spiegazione": "Come nel racconto del cavallo di Troia, questo malware si presenta come qualcosa di innocuo per entrare nel computer e poi fare danni."
+    },
+    {
+      "id": "CE-035", "tipo": "vf", "argomento": "6.2 Malware",
+      "testo": "Aprire l'allegato di un'email mandata da uno sconosciuto può infettare il computer con un malware.",
+      "giusta": true,
+      "spiegazione": "Vero. Gli allegati sono uno dei modi più comuni con cui arrivano i malware. Se non sai da chi arriva un'email, non aprire l'allegato."
+    },
+    {
+      "id": "CE-036", "tipo": "vf", "argomento": "6.3 Tutela della salute e informatica verde",
+      "testo": "Quando usi il computer a lungo è utile fare pause regolari, stare seduto con la schiena dritta e avere una buona luce.",
+      "giusta": true,
+      "spiegazione": "Vero. Pause, postura corretta e buona illuminazione proteggono occhi, schiena e polsi."
+    }
+  ],
+  "flashcard": [
+    { "id": "CE-F01", "fronte": "Hardware", "retro": "Le parti fisiche del computer, quelle che si possono toccare: tastiera, mouse, schermo, processore." },
+    { "id": "CE-F02", "fronte": "Software", "retro": "In italiano: programmi o applicazioni. Sono le istruzioni che dicono al computer che cosa fare, come Windows o Word." },
+    { "id": "CE-F03", "fronte": "CPU (Central Processing Unit)", "retro": "Unità centrale di elaborazione, cioè il processore: il «cervello» che esegue le istruzioni dei programmi." },
+    { "id": "CE-F04", "fronte": "RAM (Random Access Memory)", "retro": "Memoria ad accesso casuale: veloce ma temporanea. Si svuota quando spegni il computer." },
+    { "id": "CE-F05", "fronte": "Freeware", "retro": "Software gratuito: si può usare senza pagare, ma il suo codice non è per forza aperto." },
+    { "id": "CE-F06", "fronte": "Shareware", "retro": "Software in prova: lo usi gratis per un periodo, poi se vuoi continuare a usarlo lo paghi." },
+    { "id": "CE-F07", "fronte": "Download / Upload", "retro": "Scaricare / caricare: con il download i dati arrivano dalla rete al tuo dispositivo, con l'upload li mandi dal tuo dispositivo alla rete." },
+    { "id": "CE-F08", "fronte": "Backup", "retro": "Copia di sicurezza dei dati, da tenere in un altro posto (per esempio online) per non perderli se il computer si guasta." },
+    { "id": "CE-F09", "fronte": "Firewall", "retro": "Muro di protezione: controlla le comunicazioni tra il computer e la rete e blocca gli accessi non autorizzati." },
+    { "id": "CE-F10", "fronte": "Malware", "retro": "Software dannoso (dall'inglese malicious software): per esempio virus, worm (verme, si copia da solo nella rete), trojan e spyware (programma spia)." },
+    { "id": "CE-F11", "fronte": "Green computing", "retro": "Informatica verde: usare i dispositivi risparmiando energia (sospensione, spegnimento automatico) e riciclare batterie, carta e toner." },
+    { "id": "CE-F12", "fronte": "Screen reader", "retro": "Lettore dello schermo: legge ad alta voce i testi sullo schermo, per aiutare chi non vede bene. È uno strumento di accessibilità." }
+  ]
+}

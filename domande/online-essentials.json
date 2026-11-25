@@ -1,0 +1,272 @@
+{
+  "modulo": "online-essentials",
+  "nome": "Online Essentials",
+  "traduzione": "Fondamenti online",
+  "colore": "#7fb2ff",
+  "icona": "mondo",
+  "fonte": {
+    "documento": "ICDL Digital Student - Online Essentials - Syllabus 1.0, versione italiana (AICA, Ref. ECDL – M02V1.0IT)",
+    "versione": "1.0",
+    "url": "https://www.icdl.it/risorse/b422f906a2d044f8dc3c8376.pdf"
+  },
+  "domande": [
+    {
+      "id": "OE-001", "tipo": "scelta", "argomento": "1.1 Concetti fondamentali",
+      "testo": "Che cosa indica la parte «.it» nell'indirizzo www.scuola.it?",
+      "risposte": ["Che il sito usa il dominio geografico dell'Italia", "Che il sito è sicuro e protetto dai virus", "Che il sito appartiene a un'azienda privata", "Che il sito è gratuito per tutti gli utenti"],
+      "giusta": 0,
+      "spiegazione": "La parte finale dell'indirizzo è il dominio: .it è il dominio geografico dell'Italia, come .fr per la Francia. Domini come .com, .org, .edu e .gov indicano invece il tipo di organizzazione."
+    },
+    {
+      "id": "OE-002", "tipo": "scelta", "argomento": "1.1 Concetti fondamentali",
+      "testo": "Che cos'è un browser (programma di navigazione)?",
+      "risposte": ["Un motore di ricerca, come Google o Bing", "Un programma per aprire e vedere le pagine web, come Microsoft Edge o Google Chrome", "Un sito che contiene tutte le pagine di Internet", "Il cavo che collega il computer a Internet"],
+      "giusta": 1,
+      "spiegazione": "Il browser è il programma che usi per aprire le pagine web: Edge, Chrome, Firefox e Safari sono browser. Google e Bing invece sono motori di ricerca, cioè siti che si aprono dentro il browser."
+    },
+    {
+      "id": "OE-003", "tipo": "scelta", "argomento": "1.2 Sicurezza",
+      "testo": "Come capisci che la connessione a un sito è protetta (cifrata)?",
+      "risposte": ["Il sito ha tanti colori e immagini", "L'indirizzo finisce con .com", "L'indirizzo inizia con https", "La pagina si apre molto velocemente"],
+      "giusta": 2,
+      "spiegazione": "La «s» di https sta per «secure» (sicuro): i dati viaggiano cifrati tra te e il sito. Molti browser mostrano anche un lucchetto vicino all'indirizzo. Attenzione: https protegge la connessione, ma non garantisce che il sito sia onesto."
+    },
+    {
+      "id": "OE-004", "tipo": "vf", "argomento": "1.2 Sicurezza",
+      "testo": "La crittografia trasforma i dati in un codice che può leggere solo chi ha la chiave giusta.",
+      "giusta": true,
+      "spiegazione": "Vero: con la crittografia i dati diventano incomprensibili per chi li intercetta. Solo chi ha la chiave può rimetterli in chiaro."
+    },
+    {
+      "id": "OE-005", "tipo": "scelta", "argomento": "2.1 Uso del browser",
+      "testo": "In Microsoft Edge, quale combinazione di tasti apre una nuova scheda?",
+      "risposte": ["Ctrl + N", "Ctrl + T", "Ctrl + H", "Ctrl + J"],
+      "giusta": 1,
+      "spiegazione": "Ctrl + T apre una nuova scheda nella stessa finestra. Ctrl + N apre invece una nuova finestra, Ctrl + H la «Cronologia» e Ctrl + J i «Download»."
+    },
+    {
+      "id": "OE-006", "tipo": "scelta", "argomento": "2.1 Uso del browser",
+      "testo": "Una pagina web non si è caricata bene. Quale pulsante del browser usi per caricarla di nuovo?",
+      "risposte": ["Indietro", "Home", "Preferiti", "Aggiorna (oppure il tasto F5)"],
+      "giusta": 3,
+      "spiegazione": "«Aggiorna» (la freccia circolare, o il tasto F5) ricarica la pagina che stai guardando. «Indietro» invece ti porta alla pagina precedente."
+    },
+    {
+      "id": "OE-007", "tipo": "scelta", "argomento": "2.1 Uso del browser",
+      "testo": "In Microsoft Edge, dove trovi l'elenco dei siti che hai visitato nei giorni scorsi?",
+      "risposte": ["Nella «Cronologia» (Ctrl + H)", "Nei «Download» (Ctrl + J)", "Nella «Posta in arrivo»", "Nelle «Impostazioni» di Windows"],
+      "giusta": 0,
+      "spiegazione": "La «Cronologia» ricorda le pagine che hai visitato, giorno per giorno. Nei «Download» trovi invece i file che hai scaricato."
+    },
+    {
+      "id": "OE-008", "tipo": "vf", "argomento": "2.1 Uso del browser",
+      "testo": "Il pulsante «Indietro» del browser ti riporta alla pagina che stavi guardando prima.",
+      "giusta": true,
+      "spiegazione": "Vero: «Indietro» torna alla pagina precedente e «Avanti» ti riporta a quella da cui eri tornato indietro."
+    },
+    {
+      "id": "OE-009", "tipo": "scelta", "argomento": "2.2 Strumenti e impostazioni",
+      "testo": "Che cos'è un cookie?",
+      "risposte": ["Un virus che si nasconde nel browser e danneggia il computer", "Una finestra di pubblicità che si apre da sola sopra la pagina", "Un piccolo file che un sito salva nel browser per ricordarsi di te", "Un programma che serve per scaricare file da Internet"],
+      "giusta": 2,
+      "spiegazione": "Un cookie è un piccolo file di testo che il sito lascia nel browser, per esempio per ricordarsi che hai già fatto l'accesso. Nelle impostazioni del browser puoi consentire o bloccare i cookie."
+    },
+    {
+      "id": "OE-010", "tipo": "scelta", "argomento": "2.2 Strumenti e impostazioni",
+      "testo": "Che cos'è un pop-up?",
+      "risposte": ["Una finestra che si apre da sola sopra la pagina, spesso con pubblicità", "Un file che il sito salva nel browser", "Il pulsante che porta alla pagina iniziale", "L'elenco dei siti preferiti"],
+      "giusta": 0,
+      "spiegazione": "Un pop-up è una finestrella che «salta fuori» da sola mentre navighi. I browser possono bloccare i pop-up oppure consentirli solo per alcuni siti."
+    },
+    {
+      "id": "OE-011", "tipo": "scelta", "argomento": "2.2 Strumenti e impostazioni",
+      "testo": "Hai usato il computer della biblioteca. Prima di andare via, che cosa conviene fare nel browser?",
+      "risposte": ["Aggiungere ai Preferiti tutte le pagine che hai visitato", "Aprire una nuova finestra e lasciare il browser acceso", "Ingrandire la pagina così chi viene dopo legge meglio", "Cancellare cronologia, cookie e dati salvati dei moduli"],
+      "giusta": 3,
+      "spiegazione": "Cancellando cronologia, cookie, file temporanei e dati dei moduli, chi usa il computer dopo di te non vede i siti che hai visitato né quello che hai scritto. Ricordati anche di uscire (scollegarti) dai siti in cui hai fatto l'accesso."
+    },
+    {
+      "id": "OE-012", "tipo": "scelta", "argomento": "2.3 Segnalibri",
+      "testo": "In Microsoft Edge i segnalibri si chiamano «Preferiti». Quale combinazione di tasti aggiunge ai Preferiti la pagina che stai guardando?",
+      "risposte": ["Ctrl + P", "Ctrl + F", "Ctrl + D", "Ctrl + S"],
+      "giusta": 2,
+      "spiegazione": "Ctrl + D (oppure la stellina nella barra degli indirizzi) salva la pagina nei Preferiti. Ctrl + P serve per stampare e Ctrl + F per cercare una parola nella pagina."
+    },
+    {
+      "id": "OE-013", "tipo": "vf", "argomento": "2.4 Contenuti dal web",
+      "testo": "Quando scarichi un file con Microsoft Edge, di solito viene salvato nella cartella «Download» del computer.",
+      "giusta": true,
+      "spiegazione": "Vero: la cartella predefinita è «Download». Puoi vedere i file scaricati anche nel browser, nel pannello «Download» (Ctrl + J)."
+    },
+    {
+      "id": "OE-014", "tipo": "scelta", "argomento": "2.4 Contenuti dal web",
+      "testo": "Vuoi stampare solo un paragrafo di una pagina web, non tutta la pagina. Che cosa fai?",
+      "risposte": ["Riduci lo zoom della pagina e stampi tutto", "Copi l'indirizzo della pagina dalla barra degli indirizzi", "Aggiungi la pagina ai Preferiti e poi la chiudi", "Selezioni il paragrafo e stampi solo la selezione"],
+      "giusta": 3,
+      "spiegazione": "Le opzioni di stampa del browser permettono di stampare solo la parte selezionata. Prima di stampare puoi guardare l'anteprima per controllare che cosa uscirà sul foglio."
+    },
+    {
+      "id": "OE-015", "tipo": "scelta", "argomento": "3.1 Ricerca",
+      "testo": "Quale di questi è un motore di ricerca?",
+      "risposte": ["Microsoft Edge", "Bing", "Windows 11", "Outlook"],
+      "giusta": 1,
+      "spiegazione": "Bing, come Google, è un motore di ricerca: trova le pagine che parlano delle parole che scrivi. Edge è un browser, Windows 11 è un sistema operativo e Outlook è un programma di posta."
+    },
+    {
+      "id": "OE-016", "tipo": "scelta", "argomento": "3.1 Ricerca",
+      "testo": "Vuoi trovare solo le pagine che contengono la frase sistema solare interno, con le parole proprio in quest'ordine. Come la scrivi nel motore di ricerca?",
+      "risposte": ["sistema solare interno", "#sistema solare interno", "sistema OR solare OR interno", "\"sistema solare interno\""],
+      "giusta": 3,
+      "spiegazione": "Le virgolette dicono al motore di ricerca di cercare la frase esatta, con le parole vicine e in quell'ordine. Senza virgolette trova anche pagine dove le parole sono sparse."
+    },
+    {
+      "id": "OE-017", "tipo": "scelta", "argomento": "3.2 Valutazione critica",
+      "testo": "Quale di questi elementi ti aiuta di più a capire se un sito è affidabile?",
+      "risposte": ["Si sa chi è l'autore, ci sono le fonti e la data dell'ultimo aggiornamento", "Ha tante immagini colorate", "Compare tra i primi risultati della ricerca", "Ha molti annunci pubblicitari"],
+      "giusta": 0,
+      "spiegazione": "Un sito è più credibile se dice chi l'ha scritto, da dove prende le informazioni e quando è stato aggiornato. Essere in cima ai risultati non vuol dire essere corretti."
+    },
+    {
+      "id": "OE-018", "tipo": "vf", "argomento": "3.3 Copyright, protezione dei dati",
+      "testo": "Se un'immagine si trova su Internet, puoi usarla come vuoi senza citare l'autore, perché è di tutti.",
+      "giusta": false,
+      "spiegazione": "Falso: quasi sempre anche le immagini online sono protette dal copyright (diritto d'autore). Devi citare la fonte e, quando serve, chiedere il permesso all'autore."
+    },
+    {
+      "id": "OE-019", "tipo": "scelta", "argomento": "4.1 Comunità online",
+      "testo": "Su un social network, quale scelta ti protegge di più?",
+      "risposte": ["Profilo pubblico, così hai più amici e più «mi piace»", "Profilo privato e posizione (geolocalizzazione) spenta nei post", "Indirizzo di casa scritto nel profilo, così gli amici ti trovano", "Accettare l'amicizia di tutti, anche di chi non conosci"],
+      "giusta": 1,
+      "spiegazione": "Con le impostazioni della privacy decidi chi vede i tuoi contenuti, e senza la posizione nessuno sa dove ti trovi. Gli utenti sconosciuti o molesti si possono bloccare e segnalare."
+    },
+    {
+      "id": "OE-020", "tipo": "scelta", "argomento": "4.2 Strumenti di comunicazione",
+      "testo": "Che cos'è il VoIP (Voice over Internet Protocol)?",
+      "risposte": ["Un tipo di virus che colpisce i telefoni", "Un messaggio scritto di pochi caratteri", "Un programma per scrivere documenti", "Un modo per telefonare usando Internet"],
+      "giusta": 3,
+      "spiegazione": "Con il VoIP la voce viaggia su Internet: lo usi quando fai una chiamata con app come Teams o WhatsApp."
+    },
+    {
+      "id": "OE-021", "tipo": "vf", "argomento": "4.2 Strumenti di comunicazione",
+      "testo": "Un SMS può contenere foto e video, mentre un MMS contiene solo testo.",
+      "giusta": false,
+      "spiegazione": "Falso, è il contrario: l'SMS (Short Message Service) è un breve messaggio di solo testo. L'MMS (Multimedia Message Service) può contenere anche immagini, audio e video."
+    },
+    {
+      "id": "OE-022", "tipo": "scelta", "argomento": "4.3 Concetti della posta elettronica",
+      "testo": "Quale di questi è un indirizzo e-mail scritto in modo corretto?",
+      "risposte": ["luca.rossi@esempio.it", "luca.rossi.esempio.it", "www.lucarossi.it", "@lucarossi esempio.it"],
+      "giusta": 0,
+      "spiegazione": "Un indirizzo e-mail ha il nome dell'utente, poi la chiocciola @ e poi il dominio del servizio di posta, senza spazi. «www.lucarossi.it» è l'indirizzo di un sito, non di posta."
+    },
+    {
+      "id": "OE-023", "tipo": "scelta", "argomento": "4.3 Concetti della posta elettronica",
+      "testo": "Vuoi mandare un'e-mail a tutta la classe senza che ognuno veda gli indirizzi degli altri. In quale campo scrivi gli indirizzi?",
+      "risposte": ["A", "Cc (copia conoscenza)", "Ccn (copia nascosta)", "Oggetto"],
+      "giusta": 2,
+      "spiegazione": "Chi è in Ccn riceve il messaggio, ma il suo indirizzo resta nascosto agli altri destinatari. Gli indirizzi scritti in «A» e in «Cc» li vedono tutti."
+    },
+    {
+      "id": "OE-024", "tipo": "scelta", "argomento": "4.3 Concetti della posta elettronica",
+      "testo": "Che cos'è il phishing?",
+      "risposte": ["Un gioco online in cui si va a pesca con gli amici", "Un modo per inviare per e-mail file molto grandi", "Un messaggio falso che cerca di rubarti password o dati", "La cartella dove finiscono i messaggi già letti"],
+      "giusta": 2,
+      "spiegazione": "Nel phishing qualcuno «pesca» i tuoi dati con un messaggio che sembra vero ma è falso. Non cliccare sui link e non dare mai la password a chi te la chiede per e-mail."
+    },
+    {
+      "id": "OE-025", "tipo": "vf", "argomento": "5.1 Invio di un messaggio",
+      "testo": "La cartella «Bozze» contiene i messaggi che hai iniziato a scrivere ma non hai ancora inviato.",
+      "giusta": true,
+      "spiegazione": "Vero: in «Bozze» restano i messaggi non finiti, così puoi completarli dopo. I messaggi già spediti sono invece nella «Posta inviata»."
+    },
+    {
+      "id": "OE-026", "tipo": "scelta", "argomento": "5.1 Invio di un messaggio",
+      "testo": "Come aggiungi una foto a un'e-mail che stai scrivendo?",
+      "risposte": ["La incolli nel campo «A»", "Usi il comando «Allega file» (l'icona della graffetta)", "Scrivi il nome della foto nell'«Oggetto»", "Premi «Rispondi a tutti»"],
+      "giusta": 1,
+      "spiegazione": "Con «Allega file» scegli il file dal computer e lo aggiungi al messaggio come allegato. Ricorda che gli allegati troppo grandi possono non partire."
+    },
+    {
+      "id": "OE-027", "tipo": "scelta", "argomento": "5.1 Invio di un messaggio",
+      "testo": "Quale «Oggetto» è più adatto per un'e-mail alla prof con i compiti di scienze?",
+      "risposte": ["Ciao prof, sono io!!!", "URGENTISSIMO LEGGI SUBITO!!!", "Nessuno: lascio il campo vuoto", "Compiti di scienze - Luca Rossi"],
+      "giusta": 3,
+      "spiegazione": "Un buon oggetto dice in poche parole di che cosa parla il messaggio. Così chi lo riceve capisce subito di che si tratta."
+    },
+    {
+      "id": "OE-028", "tipo": "scelta", "argomento": "5.2 Ricevere un messaggio",
+      "testo": "La prof ha scritto a te e ad altri 20 compagni. Vuoi rispondere solo a lei. Quale comando usi?",
+      "risposte": ["Rispondi", "Rispondi a tutti", "Inoltra", "Ccn"],
+      "giusta": 0,
+      "spiegazione": "«Rispondi» manda la risposta solo a chi ti ha scritto. «Rispondi a tutti» la manderebbe anche a tutti i compagni che hanno ricevuto il messaggio."
+    },
+    {
+      "id": "OE-029", "tipo": "vf", "argomento": "5.2 Ricevere un messaggio",
+      "testo": "Con «Inoltra» la tua risposta arriva automaticamente a tutte le persone che avevano ricevuto il messaggio.",
+      "giusta": false,
+      "spiegazione": "Falso: «Inoltra» serve a mandare il messaggio ricevuto a un'altra persona, che scegli tu. Per scrivere a tutti i destinatari si usa «Rispondi a tutti»."
+    },
+    {
+      "id": "OE-030", "tipo": "scelta", "argomento": "5.3 Strumenti e impostazioni",
+      "testo": "Vai in vacanza per una settimana e vuoi che chi ti scrive riceva subito un avviso. Che cosa attivi nel programma di posta?",
+      "risposte": ["La firma", "La priorità alta", "Le risposte automatiche (messaggio di assenza)", "La posta indesiderata"],
+      "giusta": 2,
+      "spiegazione": "La risposta automatica manda da sola un messaggio, per esempio «Sono via fino a lunedì», a chi ti scrive. Al ritorno la disattivi."
+    },
+    {
+      "id": "OE-031", "tipo": "vf", "argomento": "5.3 Strumenti e impostazioni",
+      "testo": "Puoi segnare come «non letto» un messaggio che hai già aperto, per ricordarti di guardarlo di nuovo.",
+      "giusta": true,
+      "spiegazione": "Vero: con il comando «Segna come da leggere» il messaggio torna in grassetto, come quelli nuovi, così ti ricordi di riaprirlo."
+    },
+    {
+      "id": "OE-032", "tipo": "scelta", "argomento": "5.3 Strumenti e impostazioni",
+      "testo": "Che cos'è la firma in un programma di posta elettronica?",
+      "risposte": ["Una password per entrare nella casella di posta", "Un testo, come nome e cognome, che viene aggiunto in fondo ai messaggi", "L'indirizzo del destinatario", "Un allegato obbligatorio"],
+      "giusta": 1,
+      "spiegazione": "La firma è un testo che crei una volta sola e che il programma aggiunge in fondo ai messaggi. Non ha niente a che vedere con la password."
+    },
+    {
+      "id": "OE-033", "tipo": "scelta", "argomento": "5.4 Organizzazione dei messaggi",
+      "testo": "Hai eliminato per sbaglio un messaggio importante. Dove puoi cercarlo per recuperarlo?",
+      "risposte": ["Nella cartella «Posta eliminata» (il cestino della posta)", "Nella cartella «Bozze»", "Nella cartella «Posta inviata»", "Da nessuna parte: non si può mai recuperare"],
+      "giusta": 0,
+      "spiegazione": "I messaggi eliminati finiscono prima in «Posta eliminata» (in alcuni servizi si chiama «Cestino»): da lì puoi spostarli di nuovo dove vuoi. Se svuoti il cestino, di solito li perdi per sempre."
+    },
+    {
+      "id": "OE-034", "tipo": "scelta", "argomento": "5.4 Organizzazione dei messaggi",
+      "testo": "Un'e-mail del tuo allenatore è finita nella «Posta indesiderata». Che cosa fai?",
+      "risposte": ["La elimini subito senza aprirla", "La segni come «non indesiderata»", "Rispondi a tutti i destinatari", "La inoltri a tutti i tuoi contatti"],
+      "giusta": 1,
+      "spiegazione": "Se segni il messaggio come non indesiderato (in Outlook, per esempio, con il comando «Non è posta indesiderata»), torna nella «Posta in arrivo». Così il programma impara che quel mittente è affidabile."
+    },
+    {
+      "id": "OE-035", "tipo": "scelta", "argomento": "5.4 Organizzazione dei messaggi",
+      "testo": "Vuoi vedere in cima i messaggi più pesanti, per liberare spazio nella casella. Come ordini la posta?",
+      "risposte": ["Per data", "Per mittente", "Per dimensione", "Per oggetto"],
+      "giusta": 2,
+      "spiegazione": "Ordinando per dimensione vedi per primi i messaggi più grandi, di solito quelli con allegati pesanti. L'ordine per data mostra invece i più recenti."
+    },
+    {
+      "id": "OE-036", "tipo": "scelta", "argomento": "5.5 Uso dei calendari",
+      "testo": "Ricevi nel calendario l'invito a una riunione, ma non puoi andarci. Che cosa fai?",
+      "risposte": ["Lo elimini senza rispondere", "Rispondi «Accetta» e poi non vai", "Lo inoltri a tutti i contatti", "Rispondi con «Rifiuta»"],
+      "giusta": 3,
+      "spiegazione": "Con «Rifiuta» l'organizzatore riceve la tua risposta e sa che non verrai. Se invece puoi andare, usi «Accetta» e la riunione entra nel tuo calendario."
+    }
+  ],
+  "flashcard": [
+    { "id": "OE-F01", "fronte": "Internet", "retro": "La rete mondiale che collega milioni di computer e dispositivi. Il web, la posta elettronica e le chat usano Internet." },
+    { "id": "OE-F02", "fronte": "World Wide Web (WWW)", "retro": "In italiano: «ragnatela grande quanto il mondo». È l'insieme delle pagine web collegate tra loro, che si guardano con il browser. Non è la stessa cosa di Internet: è uno dei servizi di Internet." },
+    { "id": "OE-F03", "fronte": "URL (Uniform Resource Locator)", "retro": "L'indirizzo di una pagina web, per esempio https://www.esempio.it/pagina. Si scrive nella barra degli indirizzi del browser." },
+    { "id": "OE-F04", "fronte": "Hyperlink", "retro": "Collegamento ipertestuale: una parola o un'immagine che, se la clicchi, ti porta a un'altra pagina. Il puntatore diventa una manina." },
+    { "id": "OE-F05", "fronte": "Browser", "retro": "Programma di navigazione: serve per aprire le pagine web. Esempi: Microsoft Edge, Google Chrome, Mozilla Firefox, Safari." },
+    { "id": "OE-F06", "fronte": "Cookie", "retro": "Piccolo file che un sito salva nel browser per ricordare informazioni, come l'accesso fatto o le preferenze. Si possono consentire, bloccare o cancellare." },
+    { "id": "OE-F07", "fronte": "Certificato digitale", "retro": "Una specie di «carta d'identità» elettronica di un sito: dimostra che il sito è davvero chi dice di essere e permette la connessione sicura https." },
+    { "id": "OE-F08", "fronte": "Parental control", "retro": "Controllo genitori: strumenti che permettono a un adulto di seguire l'uso di Internet, limitare i siti visitabili e bloccare gli scaricamenti." },
+    { "id": "OE-F09", "fronte": "Phishing", "retro": "Truffa online: un messaggio o un sito falso finge di essere una banca o un servizio noto per rubarti password e dati." },
+    { "id": "OE-F10", "fronte": "Spam", "retro": "Posta indesiderata: messaggi non richiesti, spesso pubblicità o truffe. Il programma di posta li sposta nella cartella «Posta indesiderata»." },
+    { "id": "OE-F11", "fronte": "IM (Instant Messaging)", "retro": "Messaggistica istantanea: messaggi scritti che arrivano subito, in tempo reale, tra persone collegate, come nelle chat." },
+    { "id": "OE-F12", "fronte": "GDPR (General Data Protection Regulation)", "retro": "Regolamento generale sulla protezione dei dati: la legge europea sulla privacy, valida anche in Italia. Chi tiene i tuoi dati deve proteggerli; tu hai diritto di sapere quali dati ha su di te e di farli correggere." }
+  ]
+}

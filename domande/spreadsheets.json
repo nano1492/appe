@@ -1,0 +1,240 @@
+{
+  "modulo": "spreadsheets",
+  "nome": "Spreadsheets",
+  "traduzione": "Fogli di calcolo",
+  "colore": "#ffd35c",
+  "icona": "tabella",
+  "fonte": {
+    "documento": "ICDL Workforce - Spreadsheets - Syllabus 6.0, versione italiana (AICA, Ref. ECDL – M04V6.0IT)",
+    "versione": "6.0",
+    "url": "https://www.icdl.it/risorse/5038aa065617a11aec28bb3e.pdf"
+  },
+  "domande": [
+    {
+      "id": "SS-001", "tipo": "scelta", "argomento": "1.1 Lavorare con il foglio elettronico",
+      "testo": "Il prof di tecnologia vuole i punteggi del torneo in un file con solo i dati, che si possa aprire anche con altri programmi. Quale formato scegli in «File > Salva con nome»?",
+      "risposte": ["Cartella di lavoro di Excel (*.xlsx)", "CSV (*.csv)", "PDF (*.pdf)", "Modello di Excel (*.xltx)"],
+      "giusta": 1,
+      "spiegazione": "Il CSV salva solo i dati, separati da un segno (con Windows in italiano di solito il punto e virgola, in inglese la virgola), e lo aprono molti programmi diversi. Il .xlsx è il formato normale di Excel, il PDF serve per leggere, non per modificare."
+    },
+    {
+      "id": "SS-002", "tipo": "scelta", "argomento": "1.2 Migliorare la produttività",
+      "testo": "Il foglio con i voti di tutta la scuola è lunghissimo e vuoi andare subito alla cella K250. Qual è il modo più veloce?",
+      "risposte": ["Premi F5 e scrivi K250 in «Vai a»", "Scorri il foglio con la rotellina del mouse", "Riduci lo zoom al 10% e cerchi la cella", "Apri «Ordina e filtra» nella scheda Home"],
+      "giusta": 0,
+      "spiegazione": "Il tasto F5 (oppure «Trova e seleziona > Vai a» nella scheda Home) apre «Vai a»: scrivi K250 ed Excel ti porta lì. Puoi anche scrivere K250 nella «Casella Nome», a sinistra della barra della formula."
+    },
+    {
+      "id": "SS-003", "tipo": "vf", "argomento": "1.2 Migliorare la produttività",
+      "testo": "Se metti lo zoom al 200%, anche i numeri stampati sulla carta diventano grandi il doppio.",
+      "giusta": false,
+      "spiegazione": "Lo zoom cambia solo come vedi il foglio sullo schermo: la stampa resta uguale. Per stampare più grande o più piccolo si usa «Proporzioni» nella scheda «Layout di pagina»."
+    },
+    {
+      "id": "SS-004", "tipo": "vf", "argomento": "2.1 Inserire, selezionare",
+      "testo": "In un elenco di voti conviene lasciare una riga vuota in mezzo, per separare il primo e il secondo quadrimestre.",
+      "giusta": false,
+      "spiegazione": "Una riga vuota spezza l'elenco: Excel pensa che finisca lì, così ordinamenti e grafici prendono solo una parte dei dati. Meglio aggiungere una colonna «Quadrimestre», con un solo dato in ogni cella."
+    },
+    {
+      "id": "SS-005", "tipo": "scelta", "argomento": "2.3 Copiare, spostare, cancellare",
+      "testo": "Nella cella A2 hai scritto «Lun». Vuoi riempire le celle da A3 ad A6 con Mar, Mer, Gio e Ven senza scriverli. Cosa fai?",
+      "risposte": ["Copi A2 e lo incolli nelle celle A3:A6", "Fai doppio clic sulla linguetta del foglio in basso", "Trascini in giù il quadratino di riempimento", "Usi «Unisci e allinea al centro» su A2:A6"],
+      "giusta": 2,
+      "spiegazione": "Il quadratino di riempimento è il puntino in basso a destra della cella: trascinandolo, Excel continua la serie (giorni, mesi, numeri) e copia le formule adattando i riferimenti. Con Copia e Incolla avresti cinque volte «Lun»."
+    },
+    {
+      "id": "SS-006", "tipo": "scelta", "argomento": "3.1 Righe e colonne",
+      "testo": "Il foglio dei punteggi ha 200 righe. Quando scorri in giù non vedi più la riga 1 con i titoli «Nome» e «Punti». Cosa usi per tenerla sempre visibile sullo schermo?",
+      "risposte": ["«Stampa titoli» in Layout di pagina", "«Testo a capo» nella scheda Home", "«Nascondi» con il tasto destro", "«Blocca riquadri» in Visualizza"],
+      "giusta": 3,
+      "spiegazione": "In «Visualizza > Blocca riquadri > Blocca riga superiore» la riga 1 resta ferma mentre scorri; per toglierla scegli «Sblocca riquadri». «Stampa titoli» invece serve solo per la carta stampata."
+    },
+    {
+      "id": "SS-007", "tipo": "scelta", "argomento": "3.1 Righe e colonne",
+      "testo": "Hai ristretto la colonna C e ora nella cella C4, dove c'era il prezzo 125.000,00 €, vedi #####. Cosa fai?",
+      "risposte": ["Cancelli il numero e lo riscrivi", "Allarghi la colonna C", "Ordini i dati della colonna C", "Cambi il nome del foglio"],
+      "giusta": 1,
+      "spiegazione": "##### vuol dire che il numero non ci sta nella colonna. Con un doppio clic sul bordo destro dell'intestazione C la colonna prende la larghezza giusta; con il tasto destro e «Larghezza colonne» scegli una misura precisa."
+    },
+    {
+      "id": "SS-008", "tipo": "vf", "argomento": "3.2 Fogli di lavoro",
+      "testo": "Per cambiare il nome «Foglio1» in «Gita» puoi fare doppio clic sulla linguetta del foglio, in basso, e scrivere il nuovo nome.",
+      "giusta": true,
+      "spiegazione": "Il doppio clic sulla linguetta (oppure tasto destro > «Rinomina») permette di scrivere il nome. Nomi chiari come «Gita» o «Merende» ti fanno trovare subito il foglio giusto, meglio dei nomi predefiniti."
+    },
+    {
+      "id": "SS-009", "tipo": "scelta", "argomento": "4.1 Formule aritmetiche",
+      "testo": "Nella cella C2 c'è =B2*$E$1 (in E1 c'è il prezzo della merenda). Copi la formula nella cella C3. Quale formula ottieni in C3?",
+      "risposte": ["=B3*$E$2", "=B2*$E$1", "=B3*$E$1", "=C3*$E$2"],
+      "giusta": 2,
+      "spiegazione": "B2 è un riferimento relativo: scendendo di una riga diventa B3. $E$1 è assoluto: il simbolo $ blocca colonna e riga, quindi resta sempre E1, il prezzo della merenda."
+    },
+    {
+      "id": "SS-010", "tipo": "scelta", "argomento": "4.1 Formule aritmetiche",
+      "testo": "Nella cella D2 c'è =B2/C2 per dividere le caramelle tra gli amici, ma la cella C2 è vuota. Quale valore di errore compare?",
+      "risposte": ["#NOME?", "#RIF!", "#VALORE!", "#DIV/0!"],
+      "giusta": 3,
+      "spiegazione": "Dividere per una cella vuota è come dividere per zero, e compare #DIV/0!. #NOME? compare se scrivi male il nome di una funzione (=SOMA), #RIF! se la formula usa una cella eliminata, #VALORE! se fai un calcolo con un testo."
+    },
+    {
+      "id": "SS-011", "tipo": "scelta", "argomento": "5.1 Numeri e date",
+      "testo": "Nella cella B2 c'è 0,25 e vuoi che compaia come 25%. Quale comando della scheda Home usi?",
+      "risposte": ["«Stile percentuale»", "«Testo a capo»", "«Aumenta decimali»", "«Formattazione condizionale»"],
+      "giusta": 0,
+      "spiegazione": "«Stile percentuale» (il pulsante %) mostra 0,25 come 25%, senza cambiare il valore. In «Formato celle» (Ctrl+1) scegli anche i decimali, il separatore delle migliaia, il simbolo € e il formato delle date."
+    },
+    {
+      "id": "SS-012", "tipo": "scelta", "argomento": "5.3 Allineamento, bordi ed effetti",
+      "testo": "In A1 hai scritto «Elenco delle cose da portare in gita», ma il testo esce dalla cella. Vuoi che vada su più righe dentro la stessa cella. Cosa usi?",
+      "risposte": ["«Unisci e allinea al centro»", "«Orientamento»", "«Testo a capo»", "«Blocca riquadri»"],
+      "giusta": 2,
+      "spiegazione": "«Testo a capo» (scheda Home, gruppo Allineamento) fa andare il testo su più righe e la riga diventa più alta. «Unisci e allinea al centro» unisce più celle, ma il testo resta su una sola riga."
+    },
+    {
+      "id": "SS-013", "tipo": "scelta", "argomento": "6.1 Creazione",
+      "testo": "La classe ha votato la meta della gita: mare 12, montagna 8, città 5. Vuoi far vedere quale parte del totale ha scelto ogni meta. Quale grafico è più adatto?",
+      "risposte": ["Grafico a linee", "Grafico a torta", "Grafico a barre", "Istogramma (a colonne)"],
+      "giusta": 1,
+      "spiegazione": "Il grafico a torta mostra le parti di un totale: ogni fetta è una meta. Le linee servono per vedere come cambia qualcosa nel tempo, le colonne e le barre per confrontare quantità."
+    },
+    {
+      "id": "SS-014", "tipo": "vf", "argomento": "6.1 Creazione",
+      "testo": "Dopo aver creato un istogramma, puoi trasformarlo in un grafico a linee con «Cambia tipo di grafico», senza rifarlo da capo.",
+      "giusta": true,
+      "spiegazione": "Selezioni il grafico e nella scheda «Struttura grafico» scegli «Cambia tipo di grafico» (oppure tasto destro sul grafico > «Cambia tipo di grafico»). Per creare un grafico nuovo selezioni i dati e usi «Inserisci > Grafici consigliati»."
+    },
+    {
+      "id": "SS-015", "tipo": "scelta", "argomento": "6.2 Modifica",
+      "testo": "Il grafico confronta i punti di tre squadre con tre colori, ma non si capisce quale colore è di quale squadra. Quale elemento aggiungi?",
+      "risposte": ["Il titolo del grafico", "Le etichette dati", "La legenda", "Le linee della griglia"],
+      "giusta": 2,
+      "spiegazione": "La legenda spiega quale colore corrisponde a ogni squadra. La aggiungi con il pulsante + («Elementi grafico») accanto al grafico; le etichette dati invece scrivono i numeri."
+    },
+    {
+      "id": "SS-016", "tipo": "scelta", "argomento": "6.2 Modifica",
+      "testo": "Vuoi che sopra ogni colonna del grafico compaia il numero esatto di libri letti. Cosa attivi in «Elementi grafico» (il pulsante +)?",
+      "risposte": ["«Legenda»", "«Titolo del grafico»", "«Linee della griglia»", "«Etichette dati»"],
+      "giusta": 3,
+      "spiegazione": "Le «Etichette dati» scrivono il valore sopra ogni colonna. In un grafico a torta possono mostrare anche la percentuale di ogni fetta."
+    },
+    {
+      "id": "SS-017", "tipo": "scelta", "argomento": "7.1 Impostazione",
+      "testo": "La tabella della gita è un po' troppo larga: in stampa l'ultima colonna finisce su un secondo foglio. Cosa fai per stamparla su una sola pagina?",
+      "risposte": ["In «Layout di pagina» metti «Larghezza: 1 pagina»", "Aumenti lo zoom del foglio fino al 150%", "Togli il «Testo a capo» da tutte le celle", "Usi «Blocca riquadri» sulla prima colonna a sinistra"],
+      "giusta": 0,
+      "spiegazione": "Nella scheda «Layout di pagina», con «Larghezza: 1 pagina» Excel rimpicciolisce la stampa quanto basta per far stare tutte le colonne in una pagina (si può fare anche dalle impostazioni di «File > Stampa»). Aiuta anche l'orientamento orizzontale; lo zoom invece cambia solo lo schermo."
+    },
+    {
+      "id": "SS-018", "tipo": "scelta", "argomento": "7.2 Verifica e stampa",
+      "testo": "L'elenco dei voti occupa 3 pagine stampate. Vuoi che la riga 1 con «Nome», «Italiano» e «Matematica» compaia in cima a ogni pagina. Cosa usi?",
+      "risposte": ["«Stampa titoli» in Layout di pagina", "«Blocca riquadri» in Visualizza", "«Imposta area di stampa» in Layout di pagina", "«Unisci e allinea al centro» in Home"],
+      "giusta": 0,
+      "spiegazione": "In «Stampa titoli» scrivi la riga in «Righe da ripetere in alto» ($1:$1) e la riga 1 si stampa su ogni pagina. «Blocca riquadri» vale solo sullo schermo, «Imposta area di stampa» sceglie quali celle stampare."
+    },
+    {
+      "id": "SS-P01", "tipo": "pratico", "argomento": "1.1 Lavorare con il foglio elettronico", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "excel", "comando": "salva" },
+      "spiegazione": "«Salva» è nella scheda File e anche nella barra di accesso rapido, in alto. Con «Salva con nome» scegli un altro nome, un altro posto (sul computer oppure online, come OneDrive) o un altro formato, per esempio CSV o PDF."
+    },
+    {
+      "id": "SS-P02", "tipo": "pratico", "argomento": "2.2 Modificare, ordinare", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "excel", "comando": "annulla" },
+      "spiegazione": "«Annulla» (Ctrl+Z) è all'inizio della scheda Home e nella barra di accesso rapido: toglie l'ultima modifica. «Ripeti» (Ctrl+Y; nel syllabus si chiama «Ripristina») rifà quello che hai appena annullato."
+    },
+    {
+      "id": "SS-P03", "tipo": "pratico", "argomento": "2.2 Modificare, ordinare", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "excel", "comando": "ordina" },
+      "spiegazione": "«Ordina e filtra» è nella scheda Home; nella scheda Dati c'è «Ordina». Per i numeri scegli «Ordina dal più piccolo al più grande» o il contrario, per i nomi «Ordina dalla A alla Z» o «dalla Z alla A»."
+    },
+    {
+      "id": "SS-P04", "tipo": "pratico", "argomento": "2.3 Copiare, spostare, cancellare", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "excel", "comando": "copia" },
+      "spiegazione": "«Copia» (Ctrl+C) è nella scheda Home: copia le celle selezionate, che poi puoi incollare nello stesso foglio, in un altro foglio o in un altro file aperto."
+    },
+    {
+      "id": "SS-P05", "tipo": "pratico", "argomento": "2.3 Copiare, spostare, cancellare", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "excel", "comando": "incolla" },
+      "spiegazione": "«Incolla» (Ctrl+V) è il primo pulsante della scheda Home. Per spostare le celle invece di copiarle usi prima «Taglia» (Ctrl+X) e poi «Incolla»."
+    },
+    {
+      "id": "SS-P06", "tipo": "pratico", "argomento": "4.1 Formule aritmetiche", "ricetta": "operazione-celle",
+      "parametri": { "operazione": "/", "riga": 4 },
+      "spiegazione": "Una formula inizia con = e usa i riferimenti di cella: =B4/C4 divide le caramelle per gli amici. Gli operatori sono + - * /; se cambi un numero, il risultato si aggiorna da solo."
+    },
+    {
+      "id": "SS-P07", "tipo": "pratico", "argomento": "4.1 Formule aritmetiche", "ricetta": "percentuale",
+      "parametri": { "riga": 6 },
+      "spiegazione": "Per lo sconto in euro moltiplichi il prezzo per la percentuale e dividi per 100: =B6*C6/100 (va bene anche =B6*C6%). Usi le celle e non i numeri scritti a mano, così la formula funziona anche se il prezzo cambia."
+    },
+    {
+      "id": "SS-P08", "tipo": "pratico", "argomento": "4.2 Funzioni", "ricetta": "somma-intervallo",
+      "parametri": { "colonna": "B", "righe": [2, 6] },
+      "spiegazione": "=SOMMA(B2:B6) addiziona tutte le celle da B2 a B6 (i due punti vogliono dire «da… a»). Lo stesso risultato lo ottieni con «Somma automatica» (il simbolo Σ) nella scheda Home."
+    },
+    {
+      "id": "SS-P09", "tipo": "pratico", "argomento": "4.2 Funzioni", "ricetta": "media-intervallo",
+      "parametri": { "colonna": "C", "righe": [2, 5] },
+      "spiegazione": "=MEDIA(C2:C5) somma i numeri e divide per quanti sono. Nella freccia accanto a «Somma automatica» (scheda Home) trovi anche «Media»."
+    },
+    {
+      "id": "SS-P10", "tipo": "pratico", "argomento": "4.2 Funzioni", "ricetta": "max-intervallo",
+      "parametri": { "colonna": "D", "righe": [3, 6] },
+      "spiegazione": "=MAX(D3:D6) trova il numero più grande dell'intervallo, come il punteggio record di un gioco. È anche nella freccia di «Somma automatica», alla voce «Max»."
+    },
+    {
+      "id": "SS-P11", "tipo": "pratico", "argomento": "4.2 Funzioni", "ricetta": "min-intervallo",
+      "parametri": { "colonna": "B", "righe": [2, 4] },
+      "spiegazione": "=MIN(B2:B4) trova il numero più piccolo dell'intervallo. Attento all'intervallo: qui va solo da B2 a B4, e gli argomenti delle funzioni stanno sempre tra parentesi."
+    },
+    {
+      "id": "SS-P12", "tipo": "pratico", "argomento": "4.2 Funzioni", "ricetta": "conta-numeri",
+      "parametri": { "colonna": "E", "righe": [2, 6] },
+      "spiegazione": "=CONTA.NUMERI(E2:E6) conta le celle che contengono un numero e salta quelle con un testo, come «assente» o «riposo». Per contare tutte le celle non vuote, testi compresi, c'è CONTA.VALORI."
+    },
+    {
+      "id": "SS-P13", "tipo": "pratico", "argomento": "4.2 Funzioni", "ricetta": "se-soglia",
+      "parametri": { "riga": 3, "soglia": 60, "confronto": ">", "si": "Livello superato", "no": "Riprova" },
+      "spiegazione": "=SE(B3>60;\"Livello superato\";\"Riprova\"): prima la condizione, poi cosa scrivere se è vera, poi se è falsa, separati da ;. I testi vanno tra virgolette."
+    },
+    {
+      "id": "SS-P14", "tipo": "pratico", "argomento": "4.2 Funzioni", "ricetta": "se-soglia",
+      "parametri": { "riga": 5, "soglia": 20, "confronto": "<", "si": "Da allenare", "no": "Bene" },
+      "spiegazione": "Con il segno < la condizione è vera quando il numero è più piccolo: =SE(B5<20;\"Da allenare\";\"Bene\"). Il segno > vuol dire «maggiore di», < «minore di» e = «uguale a»."
+    },
+    {
+      "id": "SS-P15", "tipo": "pratico", "argomento": "5.2 Contenuto", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "excel", "comando": "tabella" },
+      "spiegazione": "«Tabella» è nella scheda Inserisci: trasforma le celle selezionate in una tabella con uno stile già pronto (righe colorate a strisce). Lo stile si può cambiare in «Stili tabella» o con «Formatta come tabella» nella scheda Home."
+    },
+    {
+      "id": "SS-P16", "tipo": "pratico", "argomento": "5.3 Allineamento, bordi ed effetti", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "excel", "comando": "unisci" },
+      "spiegazione": "«Unisci e allinea al centro» è nella scheda Home: unisce le celle selezionate in una sola e centra il testo, utile per un titolo come «Classifica del torneo». Con la sua freccia e «Dividi celle» le separi di nuovo."
+    },
+    {
+      "id": "SS-P17", "tipo": "pratico", "argomento": "7.2 Verifica e stampa", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "excel", "comando": "ortografia" },
+      "spiegazione": "«Controllo ortografia» (tasto F7) è nella scheda Revisione e trova le parole scritte male. I calcoli invece li devi controllare tu, guardando le formule prima di stampare."
+    },
+    {
+      "id": "SS-P18", "tipo": "pratico", "argomento": "7.2 Verifica e stampa", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "excel", "comando": "stampa" },
+      "spiegazione": "«Stampa» (Ctrl+P) è nella scheda File e mostra subito l'anteprima. Lì scegli il numero di copie e cosa stampare: «Stampa fogli attivi», «Stampa l'intera cartella di lavoro» oppure «Stampa selezione»."
+    }
+  ],
+  "flashcard": [
+    { "id": "SS-F01", "fronte": "Selezionare (righe, colonne, celle lontane)", "retro": "Clic sul numero della riga o sulla lettera della colonna per selezionarla tutta. Tieni premuto Ctrl e clicca per aggiungere celle, righe o colonne lontane tra loro; Maiusc + clic per un gruppo di celle vicine. Il triangolino in alto a sinistra seleziona tutto il foglio." },
+    { "id": "SS-F02", "fronte": "Cartella di lavoro (workbook)", "retro": "Il file di Excel (formato .xlsx). Dentro può avere uno o più fogli di lavoro." },
+    { "id": "SS-F03", "fronte": "Gestire i fogli di lavoro (worksheet)", "retro": "Le linguette in basso sono i fogli: clic per passare da uno all'altro, il «+» ne aggiunge uno nuovo. Con il tasto destro sulla linguetta trovi «Elimina», «Rinomina» e «Sposta o copia…», anche verso un'altra cartella di lavoro aperta." },
+    { "id": "SS-F04", "fronte": "Intervallo (range)", "retro": "Un gruppo di celle vicine, scritto con i due punti: B2:B6 vuol dire «da B2 a B6»." },
+    { "id": "SS-F05", "fronte": "Inserire ed eliminare righe e colonne", "retro": "Tasto destro sul numero della riga o sulla lettera della colonna, poi «Inserisci» o «Elimina». La nuova riga compare sopra quella selezionata, la nuova colonna a sinistra." },
+    { "id": "SS-F06", "fronte": "Copia formato (pennello)", "retro": "Scheda Home: selezioni la cella già formattata, premi «Copia formato» e poi clicchi sulle celle da cambiare. Con un doppio clic sul pennello lo usi più volte." },
+    { "id": "SS-F07", "fronte": "CONTA.NUMERI e CONTA.VALORI", "retro": "=CONTA.NUMERI(B2:B6) conta solo le celle con un numero. =CONTA.VALORI(B2:B6) conta tutte le celle non vuote, anche quelle con un testo." },
+    { "id": "SS-F08", "fronte": "ARROTONDA", "retro": "Arrotonda un numero ai decimali che scegli: =ARROTONDA(B2;1) con 7,46 in B2 dà 7,5." },
+    { "id": "SS-F09", "fronte": "Trova e Sostituisci", "retro": "Scheda Home > «Trova e seleziona»: «Trova» cerca una parola o un numero nel foglio, «Sostituisci» lo cambia con un altro, una volta o dappertutto («Sostituisci tutto»)." },
+    { "id": "SS-F10", "fronte": "Formato dei numeri (Formato celle, Ctrl+1)", "retro": "Nella scheda «Numero»: «Numero» per scegliere i decimali e il separatore delle migliaia, «Valuta» per il simbolo €, «Data» per come vedere le date, «Percentuale» per il %. Cambia solo come appare il numero, non il suo valore." },
+    { "id": "SS-F11", "fronte": "Intestazione e piè di pagina (header / footer)", "retro": "Il testo stampato in alto e in basso su ogni pagina. In «Inserisci > Intestazione e piè di pagina» puoi aggiungere numero di pagina, data, ora, nome del file e del foglio." },
+    { "id": "SS-F12", "fronte": "CSV (Comma-Separated Values)", "retro": "«Valori separati da virgola»: un file di solo testo con i dati della tabella, senza formattazione né grafici (in Italia i valori sono spesso separati dal punto e virgola). Lo aprono quasi tutti i programmi." }
+  ]
+}

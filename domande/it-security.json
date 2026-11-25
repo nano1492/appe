@@ -1,0 +1,273 @@
+{
+  "modulo": "it-security",
+  "nome": "IT Security",
+  "traduzione": "Sicurezza informatica",
+  "colore": "#ffb347",
+  "icona": "scudo",
+  "fonte": {
+    "documento": "ICDL Workforce - IT-Security - Syllabus 2.0, versione italiana (AICA, Ref. ECDL – M12V2.0IT)",
+    "versione": "2.0",
+    "url": "https://www.icdl.it/risorse/7dfda473116cd050fff7d635.pdf"
+  },
+  "domande": [
+    {
+      "id": "IS-001", "tipo": "scelta", "argomento": "1.1 Minacce ai dati",
+      "testo": "Qual è la differenza tra dati e informazioni?",
+      "risposte": ["I dati sono fatti grezzi, le informazioni sono dati elaborati che hanno un significato", "I dati sono segreti e privati, mentre le informazioni sono pubbliche e note a tutti", "I dati stanno solo su fogli di carta, le informazioni solo dentro al computer", "Non c'è nessuna differenza: sono due nomi diversi per indicare la stessa cosa"],
+      "giusta": 0,
+      "spiegazione": "I voti 7, 8 e 6 da soli sono dati. «La media di Luca in matematica è 7» è un'informazione, perché i dati sono stati elaborati e hanno un significato."
+    },
+    {
+      "id": "IS-002", "tipo": "scelta", "argomento": "1.1 Minacce ai dati",
+      "testo": "Salvi i tuoi file su un servizio cloud (archivio online). Quale rischio devi tenere presente?",
+      "risposte": ["I file diventano più grandi e riempiono il telefono", "Hai meno controllo sui tuoi dati e sulla tua privacy", "I file si cancellano da soli dopo una settimana", "Il tuo computer non riesce più ad aprire quei file"],
+      "giusta": 1,
+      "spiegazione": "Nel cloud i tuoi file stanno sui server di un'altra azienda: non controlli tu chi può accedervi, e la tua riservatezza (privacy) potrebbe essere a rischio."
+    },
+    {
+      "id": "IS-003", "tipo": "scelta", "argomento": "1.2 Valore delle informazioni",
+      "testo": "Quali sono le tre caratteristiche fondamentali della sicurezza delle informazioni?",
+      "risposte": ["Velocità, semplicità, gratuità", "Copia, stampa, condivisione", "Confidenzialità, integrità, disponibilità", "Grandezza, formato, posizione"],
+      "giusta": 2,
+      "spiegazione": "Confidenzialità: solo chi ha il permesso può leggere i dati. Integrità: i dati sono corretti e nessuno li ha cambiati di nascosto. Disponibilità: i dati si possono usare quando servono."
+    },
+    {
+      "id": "IS-004", "tipo": "vf", "argomento": "1.2 Valore delle informazioni",
+      "testo": "Proteggere le proprie informazioni personali aiuta a evitare il furto di identità e le truffe.",
+      "giusta": true,
+      "spiegazione": "Vero: con il tuo nome, la tua data di nascita o le tue password qualcuno potrebbe fingersi te. Per questo i dati personali vanno tenuti al sicuro."
+    },
+    {
+      "id": "IS-005", "tipo": "scelta", "argomento": "1.2 Valore delle informazioni",
+      "testo": "Una palestra conserva i dati dei suoi iscritti. Come si chiama la persona a cui quei dati si riferiscono?",
+      "risposte": ["Il controllore dei dati", "L'amministratore di rete", "Il fornitore del servizio", "Il soggetto dei dati"],
+      "giusta": 3,
+      "spiegazione": "Il soggetto dei dati (nella legge europea GDPR si chiama «interessato») è la persona di cui parlano i dati. La palestra, che decide come usarli e deve proteggerli, è il controllore dei dati (nel GDPR «titolare del trattamento»)."
+    },
+    {
+      "id": "IS-006", "tipo": "scelta", "argomento": "1.3 Sicurezza personale",
+      "testo": "Che cos'è lo shoulder surfing?",
+      "risposte": ["Spiare alle spalle qualcuno mentre scrive una password o un PIN", "Navigare su Internet con il tablet mentre si è in spiaggia", "Un programma che cerca e cancella i virus dal computer", "Un modo veloce per spostare file da un computer all'altro"],
+      "giusta": 0,
+      "spiegazione": "Shoulder surfing vuol dire «spiare alle spalle»: qualcuno guarda lo schermo o la tastiera per rubare un codice. Quando scrivi un PIN o una password, copri la tastiera con la mano."
+    },
+    {
+      "id": "IS-007", "tipo": "scelta", "argomento": "1.3 Sicurezza personale",
+      "testo": "Una persona ti telefona, dice di essere un tecnico della scuola e ti chiede la password del registro elettronico. Che cosa sta tentando di fare?",
+      "risposte": ["Un aggiornamento del sistema", "Un attacco di ingegneria sociale", "Un controllo dell'antivirus", "Una normale verifica della rete"],
+      "giusta": 1,
+      "spiegazione": "L'ingegneria sociale (social engineering) inganna le persone per farsi dare informazioni riservate. Un vero tecnico non ha bisogno della tua password: non darla e avvisa un adulto."
+    },
+    {
+      "id": "IS-008", "tipo": "scelta", "argomento": "1.4 Sicurezza dei file",
+      "testo": "Apri un documento di Word mandato da uno sconosciuto e compare un avviso: le macro sono state disattivate. Che cosa conviene fare?",
+      "risposte": ["Abilitare subito il contenuto per vedere tutto", "Copiare il documento su una chiavetta USB", "Lasciare le macro disattivate e non abilitarle", "Inoltrare il documento a tutti i compagni"],
+      "giusta": 2,
+      "spiegazione": "Una macro è un piccolo programma nascosto nel documento: se arriva da una fonte sconosciuta potrebbe contenere malware. Tenerle disattivate ti protegge."
+    },
+    {
+      "id": "IS-009", "tipo": "scelta", "argomento": "1.4 Sicurezza dei file",
+      "testo": "In Word, dove trovi il comando per proteggere un documento con una password di apertura?",
+      "risposte": ["Inserisci > Collegamenti", "Layout > Imposta pagina", "Visualizza > Zoom", "File > Informazioni > Proteggi documento"],
+      "giusta": 3,
+      "spiegazione": "In File > Informazioni > Proteggi documento scegli «Crittografa con password»: il file viene cifrato e senza password non si apre. Non dimenticarla, perché non si può recuperare!"
+    },
+    {
+      "id": "IS-010", "tipo": "scelta", "argomento": "2.1 Tipi e metodi",
+      "testo": "Un programma sembra un gioco gratuito, ma di nascosto fa entrare malware nel computer. Come si chiama?",
+      "risposte": ["Trojan (cavallo di Troia)", "Firewall (muro di protezione)", "Backup (copia di sicurezza)", "Plug-in (componente aggiuntivo)"],
+      "giusta": 0,
+      "spiegazione": "Come il cavallo di legno della leggenda di Troia, il trojan si presenta come qualcosa di utile o divertente e nasconde dentro di sé un programma dannoso."
+    },
+    {
+      "id": "IS-011", "tipo": "scelta", "argomento": "2.1 Tipi e metodi",
+      "testo": "Quale tipo di malware blocca i tuoi file e chiede un riscatto (soldi) per sbloccarli?",
+      "risposte": ["Adware", "Ransomware", "Worm", "Keylogger"],
+      "giusta": 1,
+      "spiegazione": "«Ransom» in inglese vuol dire riscatto. L'adware invece mostra pubblicità, il worm si copia da solo da un computer all'altro e il keylogger registra i tasti che premi."
+    },
+    {
+      "id": "IS-012", "tipo": "scelta", "argomento": "2.2 Protezione",
+      "testo": "Perché bisogna aggiornare regolarmente l'antivirus?",
+      "risposte": ["Per rendere lo schermo più luminoso", "Per liberare spazio sul disco", "Per riconoscere anche i malware più recenti", "Per far accendere il computer più in fretta"],
+      "giusta": 2,
+      "spiegazione": "Ogni giorno nascono nuovi malware e l'antivirus riconosce solo quelli che conosce. Anche aggiornato non blocca proprio tutto, quindi serve anche prudenza; vanno aggiornati anche il sistema operativo, il browser e le app."
+    },
+    {
+      "id": "IS-013", "tipo": "scelta", "argomento": "2.2 Protezione",
+      "testo": "In Windows 11, quale app apri per fare un'analisi antivirus con Microsoft Defender?",
+      "risposte": ["Paint", "Microsoft Store", "Impostazioni > Personalizzazione", "Sicurezza di Windows"],
+      "giusta": 3,
+      "spiegazione": "In Sicurezza di Windows vai su «Protezione da virus e minacce» e poi su «Opzioni di analisi». Lì scegli l'analisi veloce, quella completa oppure quella personalizzata, per controllare una cartella o un'unità precisa. Puoi anche fare clic con il tasto destro su un file o una cartella e scegliere «Analizza con Microsoft Defender»."
+    },
+    {
+      "id": "IS-014", "tipo": "vf", "argomento": "2.3 Risoluzione e rimozione",
+      "testo": "Mettere in quarantena un file sospetto vuol dire isolarlo, così non può fare danni, anche se non è ancora stato eliminato.",
+      "giusta": true,
+      "spiegazione": "Vero: l'antivirus sposta il file in una zona separata dove non può essere aperto. Poi puoi decidere se eliminarlo o, se era un falso allarme, ripristinarlo."
+    },
+    {
+      "id": "IS-015", "tipo": "scelta", "argomento": "3.1 Reti e connessioni",
+      "testo": "Quale tipo di rete crea un collegamento protetto, come un tunnel, per entrare in una rete privata passando da Internet?",
+      "risposte": ["VPN (rete privata virtuale)", "LAN (rete locale)", "WAN (rete geografica)", "WLAN (rete locale wireless)"],
+      "giusta": 0,
+      "spiegazione": "La VPN cifra i dati che viaggiano su Internet, come se passassero in un tunnel chiuso. La LAN collega computer vicini, la WAN copre grandi distanze e la WLAN è una rete locale senza fili."
+    },
+    {
+      "id": "IS-016", "tipo": "scelta", "argomento": "3.1 Reti e connessioni",
+      "testo": "In Windows 11, dove controlli se il firewall (muro di protezione) è attivo?",
+      "risposte": ["Impostazioni > Personalizzazione > Sfondo e colori", "Sicurezza di Windows > Firewall e protezione della rete", "Esplora file > Questo PC > Proprietà", "Impostazioni > Sistema > Schermo e luminosità"],
+      "giusta": 1,
+      "spiegazione": "Il firewall controlla che cosa entra ed esce dal computer attraverso la rete. In «Firewall e protezione della rete» puoi attivarlo o disattivarlo e scegliere quali app possono passare."
+    },
+    {
+      "id": "IS-017", "tipo": "scelta", "argomento": "3.2 Sicurezza su reti wireless",
+      "testo": "Quale protezione per una rete Wi-Fi è la più sicura tra queste?",
+      "risposte": ["WEP", "Rete aperta, senza password", "WPA2 o WPA3", "Solo SSID nascosto"],
+      "giusta": 2,
+      "spiegazione": "WEP è un sistema vecchio che si forza facilmente, e nascondere il nome della rete (SSID) non basta a proteggerla. WPA2 e il più recente WPA3 cifrano bene i dati."
+    },
+    {
+      "id": "IS-018", "tipo": "vf", "argomento": "3.2 Sicurezza su reti wireless",
+      "testo": "Su un Wi-Fi pubblico senza password è sicuro scrivere le proprie password, perché nessuno può vedere i dati.",
+      "giusta": false,
+      "spiegazione": "Falso: su una rete aperta qualcuno potrebbe intercettare i dati (eavesdropping, cioè origliare). Per acquisti e password usa una rete protetta e siti con https."
+    },
+    {
+      "id": "IS-019", "tipo": "scelta", "argomento": "4.1 Metodi",
+      "testo": "Per entrare in un account ricevi via SMS un codice che vale solo pochi minuti e si usa una volta. Come si chiama?",
+      "risposte": ["Nome utente", "PIN della SIM", "Password del Wi-Fi", "One-time password (OTP)"],
+      "giusta": 3,
+      "spiegazione": "La one-time password è una password «usa e getta»: vale una volta sola. Spesso si usa insieme alla password normale, nell'autenticazione a più fattori."
+    },
+    {
+      "id": "IS-020", "tipo": "vf", "argomento": "4.1 Metodi",
+      "testo": "L'impronta digitale e il riconoscimento del volto sono metodi biometrici per controllare chi può usare un dispositivo.",
+      "giusta": true,
+      "spiegazione": "Vero: i metodi biometrici usano una caratteristica del corpo, come l'impronta, il volto o l'occhio. Sono comodi perché non devi ricordare niente."
+    },
+    {
+      "id": "IS-021", "tipo": "scelta", "argomento": "4.2 Gestione delle password",
+      "testo": "Quale di queste password è la più robusta?",
+      "risposte": ["Gatto!Verde7Salta?", "MarioRossi2014", "1234567890123", "passwordpassword"],
+      "giusta": 0,
+      "spiegazione": "Una buona password è lunga e mescola maiuscole, minuscole, numeri e simboli, senza nomi o date facili da indovinare. Non va condivisa e conviene usarne una diversa per ogni servizio."
+    },
+    {
+      "id": "IS-022", "tipo": "scelta", "argomento": "5.1 Impostazioni del browser",
+      "testo": "In Microsoft Edge, quale combinazione di tasti apre la finestra per cancellare cronologia, cookie e file temporanei?",
+      "risposte": ["Ctrl + D", "Ctrl + Maiusc + Canc", "Ctrl + P", "Alt + F4"],
+      "giusta": 1,
+      "spiegazione": "Ctrl + Maiusc + Canc apre la finestra per cancellare i dati di navigazione: scegli il periodo e che cosa eliminare. Ctrl + D aggiunge ai Preferiti, Ctrl + P stampa e Alt + F4 chiude la finestra."
+    },
+    {
+      "id": "IS-023", "tipo": "scelta", "argomento": "5.2 Navigazione sicura in rete",
+      "testo": "Scrivi correttamente l'indirizzo di un sito famoso, ma di nascosto vieni portato su una sua copia falsa. Come si chiama questo attacco?",
+      "risposte": ["Spam", "Cyberbullismo", "Pharming", "Shoulder surfing"],
+      "giusta": 2,
+      "spiegazione": "Nel pharming un truffatore devia il collegamento verso un sito falso, anche se tu hai scritto l'indirizzo giusto. Il sito falso serve a rubare password e dati."
+    },
+    {
+      "id": "IS-024", "tipo": "scelta", "argomento": "5.2 Navigazione sicura in rete",
+      "testo": "Quale controllo ti aiuta a capire se un sito web è autentico?",
+      "risposte": ["Contare quante pubblicità compaiono nella pagina", "Guardare se il sito usa colori vivaci e allegri", "Vedere se la pagina si carica molto in fretta", "Controllare l'URL e le informazioni sul proprietario"],
+      "giusta": 3,
+      "spiegazione": "Un sito affidabile ha un indirizzo (URL) corretto, dice chi è il proprietario, dà contatti veri e ha contenuti aggiornati. Anche il certificato di sicurezza aiuta a capire se è autentico."
+    },
+    {
+      "id": "IS-025", "tipo": "scelta", "argomento": "6.1 Posta elettronica",
+      "testo": "Ricevi un'email con il logo del tuo videogioco preferito: «Il tuo account sarà chiuso! Clicca qui e scrivi la password». Che cos'è, molto probabilmente?",
+      "risposte": ["Un tentativo di phishing", "Un aggiornamento del gioco", "Un messaggio di un amico", "Un'email di benvenuto"],
+      "giusta": 0,
+      "spiegazione": "Il phishing usa loghi e nomi veri, mette fretta e ti porta su un sito falso per rubarti la password. Non cliccare, avvisa un adulto: questi messaggi si possono anche segnalare."
+    },
+    {
+      "id": "IS-026", "tipo": "scelta", "argomento": "6.1 Posta elettronica",
+      "testo": "Quale allegato, ricevuto da uno sconosciuto, è più rischioso aprire?",
+      "risposte": ["vacanze.jpg", "regalo.exe", "canzone.mp3", "appunti.txt"],
+      "giusta": 1,
+      "spiegazione": "Un file .exe è un programma: se lo apri, parte e può installare malware. Sono rischiosi anche i documenti con macro, quindi non aprire allegati di mittenti che non conosci."
+    },
+    {
+      "id": "IS-027", "tipo": "vf", "argomento": "6.1 Posta elettronica",
+      "testo": "La firma digitale permette di verificare chi ha inviato un messaggio e che nessuno lo ha modificato.",
+      "giusta": true,
+      "spiegazione": "Vero: la firma digitale è un codice speciale, creato con una chiave segreta, che è praticamente impossibile da falsificare. Permette di sapere chi è il mittente e se il messaggio è arrivato intatto."
+    },
+    {
+      "id": "IS-028", "tipo": "scelta", "argomento": "6.2 Reti sociali",
+      "testo": "Quale di queste cose NON dovresti pubblicare su un social network?",
+      "risposte": ["Un disegno che hai fatto tu", "Il tuo libro preferito", "Il tuo indirizzo di casa", "Il risultato di una partita"],
+      "giusta": 2,
+      "spiegazione": "L'indirizzo di casa permette a sconosciuti di sapere dove abiti. Controlla spesso le impostazioni del tuo account: profilo privato e posizione disattivata."
+    },
+    {
+      "id": "IS-029", "tipo": "vf", "argomento": "6.2 Reti sociali",
+      "testo": "Se qualcuno ti offende o ti mette a disagio su un social, puoi segnalarlo al social stesso ed è importante dirlo a un adulto di cui ti fidi.",
+      "giusta": true,
+      "spiegazione": "Vero: i social hanno un pulsante per segnalare messaggi e profili, e nei casi gravi si può avvisare la Polizia Postale. Parlarne con un genitore o un insegnante è la prima cosa da fare."
+    },
+    {
+      "id": "IS-030", "tipo": "scelta", "argomento": "6.3 VoIP e messaggistica istantanea",
+      "testo": "Usi un'app di messaggistica. Che cosa aiuta a tenere private le tue conversazioni?",
+      "risposte": ["Scrivere i messaggi tutti in maiuscolo", "Usare tante emoji in ogni messaggio", "Accettare i file inviati da chiunque", "La cifratura end-to-end (da un capo all'altro)"],
+      "giusta": 3,
+      "spiegazione": "Con la cifratura end-to-end solo tu e chi riceve potete leggere i messaggi. Inoltre non condividere informazioni importanti e non accettare file da sconosciuti."
+    },
+    {
+      "id": "IS-031", "tipo": "scelta", "argomento": "6.4 Dispositivi mobili",
+      "testo": "Un'app per la torcia chiede il permesso di leggere i tuoi contatti e la tua posizione. Che cosa conviene fare?",
+      "risposte": ["Negare i permessi che alla torcia non servono", "Accettare tutto, tanto l'app è gratis", "Dare i permessi e consigliarla agli amici", "Togliere il blocco schermo dal telefono"],
+      "giusta": 0,
+      "spiegazione": "Le autorizzazioni dell'app decidono a quali dati può accedere. Una torcia non ha bisogno dei contatti: un'app che li chiede potrebbe rubare informazioni private."
+    },
+    {
+      "id": "IS-032", "tipo": "vf", "argomento": "6.4 Dispositivi mobili",
+      "testo": "Se perdi lo smartphone non puoi fare niente: non è possibile trovarlo né cancellarne i dati a distanza.",
+      "giusta": false,
+      "spiegazione": "Falso: con i servizi di localizzazione di Google (Android) o con «Dov'è» (iPhone) puoi vedere dov'è il telefono, bloccarlo e cancellarne i dati a distanza."
+    },
+    {
+      "id": "IS-033", "tipo": "scelta", "argomento": "7.1 Messa in sicurezza e salvataggio di dati",
+      "testo": "Devi allontanarti per qualche minuto dal computer della biblioteca. Che cosa fai?",
+      "risposte": ["Lasci tutto aperto, tanto torni presto", "Blocchi lo schermo o esci dal tuo account", "Abbassi la luminosità dello schermo", "Chiudi solo la finestra del browser"],
+      "giusta": 1,
+      "spiegazione": "Un computer lasciato aperto permette a chiunque di usare il tuo account. In Windows blocchi lo schermo con il tasto Windows + L; su un computer pubblico, quando hai finito, esci sempre dall'account."
+    },
+    {
+      "id": "IS-034", "tipo": "scelta", "argomento": "7.1 Messa in sicurezza e salvataggio di dati",
+      "testo": "Qual è un buon modo di fare le copie di sicurezza (backup) dei tuoi file?",
+      "risposte": ["Farle una volta sola, appena compri il computer", "Tenerle nella stessa cartella dei file originali", "Farle spesso e tenerle in un posto diverso", "Farle solo dopo che hai perso i file"],
+      "giusta": 2,
+      "spiegazione": "Il backup va fatto con regolarità e conservato altrove, per esempio su un disco esterno o nel cloud. Così, se il computer si rompe, viene rubato o brucia in un incendio, puoi ripristinare i file."
+    },
+    {
+      "id": "IS-035", "tipo": "vf", "argomento": "7.2 Cancellazione e distruzione sicura",
+      "testo": "Quando svuoti il Cestino, i file sono eliminati per sempre e nessun programma potrà più recuperarli.",
+      "giusta": false,
+      "spiegazione": "Falso: con programmi speciali a volte i file si possono ancora recuperare. Per eliminarli davvero servono software di cancellazione definitiva o la distruzione del disco."
+    },
+    {
+      "id": "IS-036", "tipo": "scelta", "argomento": "7.2 Cancellazione e distruzione sicura",
+      "testo": "Vuoi regalare il tuo vecchio tablet a un cugino. Che cosa fai prima?",
+      "risposte": ["Cancelli le foto dalla galleria e svuoti il Cestino", "Togli la cover, pulisci lo schermo e lo spegni", "Disinstalli i giochi ma lasci attivo il tuo account", "Fai un backup e poi il ripristino dei dati di fabbrica"],
+      "giusta": 3,
+      "spiegazione": "Il ripristino dei dati di fabbrica cancella account, foto, messaggi e app, così chi riceve il tablet non vede i tuoi dati. Il backup ti permette di non perdere i tuoi file."
+    }
+  ],
+  "flashcard": [
+    { "id": "IS-F01", "fronte": "Malware", "retro": "Software dannoso (da «malicious software»): qualsiasi programma fatto per fare danni, come virus, worm, trojan, spyware e ransomware." },
+    { "id": "IS-F02", "fronte": "Hacking", "retro": "Sfruttare i punti deboli di un computer o di una rete per entrarci. Farlo senza permesso è un reato (crimine informatico); gli esperti di sicurezza lo fanno solo con il permesso, per trovare e chiudere le falle." },
+    { "id": "IS-F03", "fronte": "Social engineering", "retro": "Ingegneria sociale: ingannare le persone (con telefonate, email false o spiando alle spalle) per farsi dare password e informazioni riservate." },
+    { "id": "IS-F04", "fronte": "Skimming", "retro": "Furto di dati con un lettore falso nascosto, per esempio sopra la fessura di un bancomat, che copia i dati della carta." },
+    { "id": "IS-F05", "fronte": "Pretexting", "retro": "Inventare una scusa credibile (un pretesto), per esempio fingersi un tecnico, per convincere qualcuno a dare informazioni personali." },
+    { "id": "IS-F06", "fronte": "Worm", "retro": "In italiano «verme»: un malware che si copia da solo e si diffonde da un computer all'altro attraverso la rete, senza bisogno che tu apra niente." },
+    { "id": "IS-F07", "fronte": "Keylogger", "retro": "Registratore di tasti: un programma che registra di nascosto tutto quello che scrivi sulla tastiera, comprese le password, e lo manda a qualcun altro." },
+    { "id": "IS-F08", "fronte": "Firewall", "retro": "Muro di protezione: controlla i dati che entrano ed escono dal computer attraverso la rete e blocca quelli non permessi. Non sostituisce l'antivirus." },
+    { "id": "IS-F09", "fronte": "Hotspot personale", "retro": "Il telefono condivide la sua connessione Internet con altri dispositivi, come un piccolo router Wi-Fi. Va protetto con una password robusta e spento quando non serve." },
+    { "id": "IS-F10", "fronte": "Autenticazione a più fattori (MFA, Multi-Factor Authentication)", "retro": "Per entrare in un account servono due o più prove diverse, per esempio la password più un codice ricevuto sul telefono o l'impronta digitale." },
+    { "id": "IS-F11", "fronte": "Password manager", "retro": "Gestore di password: un programma che conserva tutte le tue password in un archivio cifrato. Devi ricordare solo la password principale, che quindi va protetta molto bene." },
+    { "id": "IS-F12", "fronte": "Backup", "retro": "Copia di sicurezza: una copia dei tuoi file salvata su un disco esterno o nel cloud, da usare per ripristinarli se gli originali si perdono o si rovinano." },
+    { "id": "IS-F13", "fronte": "Parental control (controllo genitori)", "retro": "Programmi o impostazioni che permettono ai genitori di limitare siti, app e tempo davanti allo schermo, per navigare più sicuri." }
+  ]
+}

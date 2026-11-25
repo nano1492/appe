@@ -1,0 +1,244 @@
+{
+  "modulo": "presentation",
+  "nome": "Presentation",
+  "traduzione": "Presentazioni",
+  "colore": "#ff4fa3",
+  "icona": "diapositiva",
+  "fonte": {
+    "documento": "ICDL Workforce - Presentation - Syllabus 6.0, versione italiana (AICA, Ref. ECDL – M06V6.0IT)",
+    "versione": "6.0",
+    "url": "https://www.icdl.it/risorse/2572934caab89c9db4d94fb6.pdf"
+  },
+  "domande": [
+    {
+      "id": "PR-001", "tipo": "scelta", "argomento": "1.1 Lavorare con le presentazioni",
+      "testo": "Hai finito la presentazione sulla gita e vuoi mandarla alla prof in un file che si legge uguale su ogni computer, anche senza PowerPoint. Quale formato scegli in «Salva con nome»?",
+      "risposte": ["Il formato .pptx", "Il formato .pdf", "Il formato .potx", "Il formato .ppsx"],
+      "giusta": 1,
+      "spiegazione": "Il PDF si apre con qualsiasi lettore di PDF e le diapositive restano uguali, ma non si modifica facilmente. Per .pptx (presentazione normale), .potx (modello) e .ppsx (solo presentazione) serve un programma di presentazioni."
+    },
+    {
+      "id": "PR-002", "tipo": "scelta", "argomento": "5.1 Inserire, manipolare",
+      "testo": "Vuoi mettere la foto della gita esattamente a metà della diapositiva, da sinistra a destra. Con la foto selezionata, quale comando usi?",
+      "risposte": ["«Centra», nel gruppo «Paragrafo»", "«Allinea al centro», nel menu «Allinea»", "«Capovolgi orizzontalmente», in «Ruota»", "«Porta in primo piano», in «Disponi»"],
+      "giusta": 1,
+      "spiegazione": "«Allinea al centro» (Formato immagine > «Allinea», allineando rispetto alla diapositiva) sposta la foto a metà della diapositiva. «Centra» invece centra il testo dentro la sua casella, non sposta l'oggetto."
+    },
+    {
+      "id": "PR-003", "tipo": "vf", "argomento": "1.2 Migliorare la produttività",
+      "testo": "Se metti lo zoom al 50% mentre lavori, le diapositive saranno più piccole anche quando le proietti alla classe.",
+      "giusta": false,
+      "spiegazione": "Falso: lo zoom cambia solo come vedi la diapositiva mentre lavori. Quando avvii la presentazione, le diapositive riempiono lo schermo."
+    },
+    {
+      "id": "PR-004", "tipo": "scelta", "argomento": "2.1 Visualizzare le presentazioni",
+      "testo": "Vuoi vedere tutte le diapositive della ricerca di scienze in piccolo, una accanto all'altra, per controllarne l'ordine. Quale visualizzazione scegli nella scheda «Visualizza»?",
+      "risposte": ["«Normale»", "«Visualizzazione Struttura»", "«Sequenza diapositive»", "«Schema diapositiva»"],
+      "giusta": 2,
+      "spiegazione": "«Sequenza diapositive» mostra tutte le miniature in una griglia, e puoi trascinarle per cambiare l'ordine. «Normale» serve per lavorare su una diapositiva alla volta, «Visualizzazione Struttura» mostra solo i testi."
+    },
+    {
+      "id": "PR-005", "tipo": "scelta", "argomento": "2.3 Schemi diapositiva",
+      "testo": "Vuoi che il logo della scuola compaia in tutte le diapositive, sempre nello stesso punto, senza incollarlo ogni volta. Che cosa usi?",
+      "risposte": ["Lo schema diapositiva", "La vista Sequenza diapositive", "Una transizione su ogni diapositiva", "Il riquadro delle note"],
+      "giusta": 0,
+      "spiegazione": "Quello che metti nello «Schema diapositiva» (scheda Visualizza) compare in tutte le diapositive che lo usano: così la presentazione ha un aspetto uguale dall'inizio alla fine."
+    },
+    {
+      "id": "PR-006", "tipo": "vf", "argomento": "3.1 Gestione del testo",
+      "testo": "In una diapositiva è meglio scrivere frasi brevi in un elenco puntato invece di lunghi paragrafi.",
+      "giusta": true,
+      "spiegazione": "Vero: il pubblico ascolta e legge insieme, quindi poche parole per punto si capiscono meglio. I dettagli li racconti a voce o li scrivi nelle note."
+    },
+    {
+      "id": "PR-007", "tipo": "scelta", "argomento": "3.2 Formattazione",
+      "testo": "Hai scritto il titolo «la gita a firenze» tutto in minuscolo. Quale pulsante della scheda Home lo trasforma in MAIUSCOLO senza riscriverlo?",
+      "risposte": ["«Grassetto»", "«Colore carattere»", "«Maiuscole/minuscole»", "«Aumenta dimensione carattere»"],
+      "giusta": 2,
+      "spiegazione": "«Maiuscole/minuscole» (l'icona Aa) cambia le lettere del testo selezionato, per esempio in tutto maiuscolo. «Grassetto» rende le lettere più spesse, ma restano minuscole."
+    },
+    {
+      "id": "PR-008", "tipo": "scelta", "argomento": "3.2 Formattazione",
+      "testo": "Le righe dell'elenco sulla gita sono troppo attaccate. Quale comando del gruppo «Paragrafo» (scheda Home) usi per metterle a 1,5?",
+      "risposte": ["«Riduci livello elenco»", "«Allinea testo a destra»", "«Elenchi puntati»", "«Interlinea»"],
+      "giusta": 3,
+      "spiegazione": "«Interlinea» decide lo spazio tra una riga e l'altra: 1,0 (singola), 1,5 o 2,0 (doppia). «Riduci livello elenco» sposta la riga verso sinistra, non cambia lo spazio tra le righe."
+    },
+    {
+      "id": "PR-009", "tipo": "scelta", "argomento": "4.1 Usare i grafici",
+      "testo": "Nella ricerca vuoi mostrare quale parte della classe preferisce ogni sport, come fette di un intero (il 100%). Quale tipo di grafico è più adatto?",
+      "risposte": ["Un grafico a linee", "Un grafico a torta", "Un grafico a colonne", "Un grafico a barre"],
+      "giusta": 1,
+      "spiegazione": "Il grafico a torta mostra le parti di un intero: ogni fetta è una parte della classe. Le linee servono per vedere come cambia un valore nel tempo."
+    },
+    {
+      "id": "PR-010", "tipo": "vf", "argomento": "4.1 Usare i grafici",
+      "testo": "Dopo aver creato un grafico a colonne, per farlo diventare un grafico a linee devi cancellarlo e rifarlo da capo.",
+      "giusta": false,
+      "spiegazione": "Falso: selezioni il grafico e usi «Cambia tipo di grafico» (scheda «Struttura grafico», oppure con il tasto destro). I dati restano gli stessi."
+    },
+    {
+      "id": "PR-011", "tipo": "scelta", "argomento": "4.1 Usare i grafici",
+      "testo": "Nel grafico a torta sui gusti di gelato della classe vuoi che su ogni fetta compaia la sua percentuale. Che cosa aggiungi?",
+      "risposte": ["La legenda", "Il titolo del grafico", "La griglia", "Le etichette dati"],
+      "giusta": 3,
+      "spiegazione": "Le «Etichette dati» (dal pulsante + accanto al grafico) scrivono sul grafico i valori o le percentuali. La legenda dice solo che cosa rappresenta ogni colore."
+    },
+    {
+      "id": "PR-012", "tipo": "scelta", "argomento": "4.2 Organigrammi",
+      "testo": "Vuoi fare l'organigramma della squadra di pallavolo (allenatore, capitano, giocatori), con le caselle una sotto l'altra. Che cosa usi nella scheda «Inserisci»?",
+      "risposte": ["«Tabella», con tre righe", "«Grafico», di tipo a torta", "«Icone», nella categoria Persone", "«SmartArt», tipo «Gerarchia»"],
+      "giusta": 3,
+      "spiegazione": "Gli SmartArt del tipo «Gerarchia» creano un organigramma: ogni casella è una persona, sotto chi la guida. Con «Aggiungi forma» aggiungi persone, e puoi spostarle su o giù di livello."
+    },
+    {
+      "id": "PR-013", "tipo": "scelta", "argomento": "5.1 Inserire, manipolare",
+      "testo": "Vuoi ingrandire la foto della gita senza schiacciarla e senza allungarla. Come fai?",
+      "risposte": ["Trascini un angolo tenendo premuto Maiusc", "Trascini la maniglia sul lato destro della foto","Trascini la freccia tonda in alto", "Trascini la maniglia sul lato in basso"],
+      "giusta": 0,
+      "spiegazione": "Trascinando un angolo cambi larghezza e altezza insieme; tenendo premuto Maiusc sei sicuro che le proporzioni restino uguali (con le foto PowerPoint di solito le mantiene già da solo). Le maniglie dei lati allungano o schiacciano, la freccia tonda fa ruotare."
+    },
+    {
+      "id": "PR-014", "tipo": "vf", "argomento": "5.2 Disegnare",
+      "testo": "Se raggruppi tre forme con il comando «Raggruppa», poi puoi spostarle tutte insieme come un unico oggetto.",
+      "giusta": true,
+      "spiegazione": "Vero: il gruppo si sposta e si ridimensiona come un oggetto solo. Con «Separa» le forme tornano indipendenti."
+    },
+    {
+      "id": "PR-015", "tipo": "scelta", "argomento": "5.2 Disegnare",
+      "testo": "Una casella di testo è finita dietro la foto della classe e non si vede più. Quale comando la porta sopra a tutti gli altri oggetti?",
+      "risposte": ["«Porta in secondo piano»", "«Capovolgi orizzontalmente»", "«Porta in primo piano»", "«Allinea al centro»"],
+      "giusta": 2,
+      "spiegazione": "«Porta in primo piano» mette l'oggetto sopra a tutti gli altri; «Porta avanti» lo alza di un solo livello. «Porta in secondo piano» fa il contrario: lo manda dietro a tutto."
+    },
+    {
+      "id": "PR-016", "tipo": "scelta", "argomento": "6.1 Preparazione",
+      "testo": "Qual è la differenza tra una transizione e un'animazione in PowerPoint?",
+      "risposte": [
+        "La transizione è l'effetto tra una diapositiva e l'altra; l'animazione fa muovere un oggetto nella diapositiva",
+        "La transizione fa muovere un oggetto nella diapositiva; l'animazione è l'effetto tra una diapositiva e l'altra",
+        "La transizione cambia il colore dello sfondo; l'animazione cambia il tipo di carattere del testo scritto",
+        "Non c'è differenza: sono due nomi diversi dello stesso effetto, che si sceglie nella scheda Progettazione"
+      ],
+      "giusta": 0,
+      "spiegazione": "Le transizioni (scheda «Transizioni») si vedono quando passi alla diapositiva successiva. Le animazioni (scheda «Animazioni») fanno entrare, muovere o sparire un titolo, un'immagine o una forma."
+    },
+    {
+      "id": "PR-017", "tipo": "scelta", "argomento": "6.2 Controllo ortografico e rilascio",
+      "testo": "Stai preparando la presentazione per la classe e sei sulla diapositiva 5. Vuoi avviare la presentazione proprio da lì, non dalla prima. Quali tasti premi?",
+      "risposte": ["F5", "Maiusc+F5", "Ctrl+Fine", "Esc"],
+      "giusta": 1,
+      "spiegazione": "Maiusc+F5 avvia dalla diapositiva corrente («Dalla diapositiva corrente», scheda Presentazione); F5 parte dalla prima («Dall'inizio»). Esc chiude la presentazione."
+    },
+    {
+      "id": "PR-018", "tipo": "vf", "argomento": "6.1 Preparazione",
+      "testo": "Una diapositiva nascosta con «Nascondi diapositiva» viene cancellata dal file.",
+      "giusta": false,
+      "spiegazione": "Falso: resta nel file e la vedi mentre lavori, con il numero barrato, ma non compare durante la presentazione. Con lo stesso comando la mostri di nuovo."
+    },
+    {
+      "id": "PR-P01", "tipo": "pratico", "argomento": "2.2 Diapositive", "ricetta": "nuova-diapositiva",
+      "parametri": {},
+      "spiegazione": "«Nuova diapositiva» (scheda Home, c'è anche in Inserisci) aggiunge la diapositiva subito dopo quella selezionata: per metterla in fondo seleziona prima l'ultima. Se serve un altro layout, premi «Layout» e scegli quello giusto."
+    },
+    {
+      "id": "PR-P02", "tipo": "pratico", "argomento": "3.1 Gestione del testo", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "powerpoint", "comando": "annulla" },
+      "spiegazione": "In PowerPoint la scheda File serve per salvare, stampare e aprire i file; «Annulla» (Ctrl+Z) invece sta in Home e anche nella barra di accesso rapido, in alto: toglie l'ultima modifica. «Ripeti» (nel syllabus «Ripristina») rifà quello che hai annullato."
+    },
+    {
+      "id": "PR-P03", "tipo": "pratico", "argomento": "2.2 Diapositive", "ricetta": "scegli-layout",
+      "parametri": { "diapositiva": 2, "layout": "Solo titolo" },
+      "spiegazione": "Seleziona la miniatura della diapositiva, poi nella scheda Home premi «Layout» e scegli «Solo titolo»: resta solo la casella del titolo e sotto hai spazio libero per immagini o forme."
+    },
+    {
+      "id": "PR-P04", "tipo": "pratico", "argomento": "2.2 Diapositive", "ricetta": "scegli-layout",
+      "parametri": { "diapositiva": 3, "layout": "Diapositiva titolo" },
+      "spiegazione": "Seleziona la miniatura, poi Home > «Layout» > «Diapositiva titolo»: ha un titolo grande e un sottotitolo. Di solito si usa per la copertina, ma va bene anche per una diapositiva finale."
+    },
+    {
+      "id": "PR-P05", "tipo": "pratico", "argomento": "2.2 Diapositive", "ricetta": "nuova-diapositiva",
+      "parametri": { "layout": "Vuota" },
+      "spiegazione": "Con l'ultima diapositiva selezionata premi «Nuova diapositiva» (scheda Home), poi «Layout» > «Vuota»: è una diapositiva senza caselle, utile per mettere solo una foto o un disegno."
+    },
+    {
+      "id": "PR-P06", "tipo": "pratico", "argomento": "2.2 Diapositive", "ricetta": "ordina-diapositive",
+      "parametri": {},
+      "spiegazione": "In PowerPoint sposti una diapositiva trascinando la sua miniatura nel riquadro a sinistra, oppure in «Sequenza diapositive». Qui seleziona la diapositiva e usa «Sposta su» o «Sposta giù»."
+    },
+    {
+      "id": "PR-P07", "tipo": "pratico", "argomento": "2.2 Diapositive", "ricetta": "elimina-diapositiva",
+      "parametri": { "diapositiva": 3 },
+      "spiegazione": "In PowerPoint selezioni la miniatura e premi Canc, oppure tasto destro > «Elimina diapositiva»; qui premi «Elimina». Se sbagli, Ctrl+Z la riporta indietro (qui c'è anche «Ricomincia»)."
+    },
+    {
+      "id": "PR-P08", "tipo": "pratico", "argomento": "3.1 Gestione del testo", "ricetta": "scrivi-titolo",
+      "parametri": { "diapositiva": 1 },
+      "spiegazione": "In visualizzazione «Normale» fai clic nella casella del titolo (il segnaposto) e scrivi. Di solito il titolo della prima diapositiva è il titolo di tutta la presentazione."
+    },
+    {
+      "id": "PR-P09", "tipo": "pratico", "argomento": "3.1 Gestione del testo", "ricetta": "scrivi-titolo",
+      "parametri": { "diapositiva": 2 },
+      "spiegazione": "Seleziona la diapositiva, fai clic nel segnaposto del titolo e scrivi. Dai a ogni diapositiva un titolo diverso: così la riconosci subito nella «Visualizzazione Struttura» e mentre presenti."
+    },
+    {
+      "id": "PR-P10", "tipo": "pratico", "argomento": "3.1 Gestione del testo", "ricetta": "scrivi-titolo",
+      "parametri": { "diapositiva": 3 },
+      "spiegazione": "Il titolo si scrive nella sua casella (segnaposto) in visualizzazione «Normale». Se poi vuoi cambiarlo, fai clic sul testo e correggilo: non serve rifare la diapositiva."
+    },
+    {
+      "id": "PR-P11", "tipo": "pratico", "argomento": "1.1 Lavorare con le presentazioni", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "powerpoint", "comando": "salva" },
+      "spiegazione": "«Salva» è nella scheda File e nella barra di accesso rapido, in alto. Con «Salva con nome» scegli un altro nome o un altro posto, sul computer oppure online (per esempio OneDrive), o un altro formato come il PDF."
+    },
+    {
+      "id": "PR-P12", "tipo": "pratico", "argomento": "5.1 Inserire, manipolare", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "powerpoint", "comando": "copia" },
+      "spiegazione": "«Copia» (Ctrl+C) è nella scheda Home: copia l'immagine, la forma o il testo selezionato. Poi con «Incolla» lo metti in un'altra diapositiva o in un'altra presentazione aperta; con «Taglia» invece lo sposti."
+    },
+    {
+      "id": "PR-P13", "tipo": "pratico", "argomento": "5.1 Inserire, manipolare", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "powerpoint", "comando": "incolla" },
+      "spiegazione": "«Incolla» (Ctrl+V) è nella scheda Home: mette nella diapositiva quello che hai copiato o tagliato, per esempio un'immagine o una forma presa da un'altra presentazione aperta."
+    },
+    {
+      "id": "PR-P14", "tipo": "pratico", "argomento": "3.3 Tabelle", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "powerpoint", "comando": "tabella" },
+      "spiegazione": "«Tabella» è nella scheda Inserisci: scegli quante righe e colonne ti servono. Quando la tabella è selezionata compaiono le schede per modificarla, dove puoi aggiungere o eliminare righe e colonne."
+    },
+    {
+      "id": "PR-P15", "tipo": "pratico", "argomento": "5.1 Inserire, manipolare", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "powerpoint", "comando": "immagine" },
+      "spiegazione": "«Immagini» è nella scheda Inserisci: da lì scegli una foto salvata sul tuo dispositivo, per esempio quella della gita. Poi puoi spostarla e ridimensionarla con le maniglie."
+    },
+    {
+      "id": "PR-P16", "tipo": "pratico", "argomento": "6.1 Preparazione", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "powerpoint", "comando": "transizioni" },
+      "spiegazione": "Gli effetti tra una diapositiva e l'altra sono nella scheda «Transizioni»: scegli per esempio «Dissolvenza». «Applica a tutte» lo mette su ogni diapositiva, «Nessuna» lo toglie."
+    },
+    {
+      "id": "PR-P17", "tipo": "pratico", "argomento": "6.2 Controllo ortografico e rilascio", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "powerpoint", "comando": "ortografia" },
+      "spiegazione": "«Controllo ortografia» è nella scheda Revisione (oppure premi F7). Per ogni parola sospetta puoi scegliere la correzione proposta oppure ignorarla, se è giusta così. Se una parola è ripetuta due volte, puoi scegliere «Elimina»."
+    },
+    {
+      "id": "PR-P18", "tipo": "pratico", "argomento": "6.2 Controllo ortografico e rilascio", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "powerpoint", "comando": "stampa" },
+      "spiegazione": "«Stampa» è nella scheda File. Lì scegli quali diapositive stampare, quante copie e il layout: per esempio «Stampati» per avere più diapositive in un foglio, o «Pagine note» per stampare anche le note."
+    }
+  ],
+  "flashcard": [
+    { "id": "PR-F01", "fronte": "Schema diapositiva (slide master)", "retro": "La diapositiva «madre» che decide caratteri, colori e oggetti di tutte le altre. Si apre da Visualizza > «Schema diapositiva»: se cambi qualcosa lì, cambia in tutte le diapositive." },
+    { "id": "PR-F02", "fronte": "Barra multifunzione (ribbon), Guida e Opzioni", "retro": "La barra multifunzione è la fascia con le schede in alto: Ctrl+F1 la riduce e la riapre. Per un aiuto usa la scheda «Guida» o il tasto F1. In File > «Opzioni» imposti il nome utente e le cartelle dove aprire e salvare." },
+    { "id": "PR-F03", "fronte": "Tema e sfondo (scheda Progettazione)", "retro": "Un tema è un insieme già pronto di colori, caratteri e sfondo per tutta la presentazione: si sceglie nella scheda «Progettazione». Con «Formato sfondo» cambi lo sfondo di una diapositiva o di tutte." },
+    { "id": "PR-F04", "fronte": "Ruotare e capovolgere un oggetto", "retro": "Trascina la freccia tonda sopra l'oggetto per ruotarlo a mano, oppure usa «Ruota» (gruppo «Disponi», scheda Formato forma o Formato immagine): «Ruota a destra di 90°», «Capovolgi verticalmente», «Capovolgi orizzontalmente»." },
+    { "id": "PR-F05", "fronte": "Note del relatore (speaker notes)", "retro": "Appunti per chi presenta, scritti nel riquadro «Note» sotto la diapositiva. Il pubblico non li vede. Si possono stampare con il layout di stampa «Pagine note»." },
+    { "id": "PR-F06", "fronte": "Stampati (handouts)", "retro": "Layout di stampa con più diapositive piccole nello stesso foglio (per esempio 3 o 6 per pagina), da dare al pubblico. Si sceglie in File > Stampa." },
+    { "id": "PR-F07", "fronte": "Avviare, muoversi, terminare la presentazione", "retro": "F5: dall'inizio. Maiusc+F5: dalla diapositiva corrente. Durante la presentazione: freccia destra per andare avanti, freccia sinistra per tornare indietro, numero + Invio per saltare a una diapositiva, Esc per finire." },
+    { "id": "PR-F08", "fronte": "Piè di pagina, numero e data", "retro": "Inserisci > «Intestazione e piè di pagina»: aggiungi un testo, il numero della diapositiva e la data (che si aggiorna da sola oppure fissa). «Applica» vale per la diapositiva selezionata, «Applica a tutte» per tutte." },
+    { "id": "PR-F09", "fronte": "Organigramma (SmartArt «Gerarchia»)", "retro": "Uno schema a caselle che mostra chi guida e chi sta sotto. Si crea con Inserisci > «SmartArt» > «Gerarchia»; con «Aggiungi forma» aggiungi una persona." },
+    { "id": "PR-F10", "fronte": "Collegamento ipertestuale (hyperlink)", "retro": "Un testo o un oggetto che, se lo clicchi, apre un sito o un'altra diapositiva. Si inserisce con Inserisci > «Collegamento» (Ctrl+K)." },
+    { "id": "PR-F11", "fronte": "Dimensioni e orientamento della diapositiva", "retro": "Progettazione > «Dimensioni diapositiva»: scegli 16:9 o 4:3 per lo schermo; nelle dimensioni personalizzate puoi scegliere un formato carta, come l'A4, e l'orientamento orizzontale o verticale." },
+    { "id": "PR-F12", "fronte": "Formati di file: .pptx, .potx, .ppsx, .pdf", "retro": ".pptx: presentazione normale. .potx: modello, da cui creare presentazioni nuove. .ppsx: si apre subito come presentazione. .pdf: per leggere e stampare su ogni dispositivo. Puoi anche salvare le diapositive come immagini (.png, .jpg)." }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "modulo": "online-collaboration",
+  "nome": "Online Collaboration",
+  "traduzione": "Collaborazione online",
+  "colore": "#9fd8ff",
+  "icona": "nuvola",
+  "fonte": {
+    "documento": "ICDL Workforce - Online Collaboration - Syllabus 1.0, versione italiana (AICA, Ref. ECDL – M07V1.0IT)",
+    "versione": "1.0",
+    "url": "https://www.icdl.it/risorse/8dd548f82931b5149967ee7b.pdf"
+  },
+  "domande": [
+    {
+      "id": "OC-001", "tipo": "scelta", "argomento": "1.1 Concetti fondamentali",
+      "testo": "Con un documento online condiviso, che cosa possono fare tu e i compagni del gruppo?",
+      "risposte": ["Lavorare sullo stesso file nello stesso momento, anche da case diverse", "Lavorare sul file solo uno alla volta, passandovi una chiavetta USB", "Aprire il file solo se siete collegati tutti alla stessa rete Wi-Fi", "Vedere il file da casa, ma modificarlo solo dal computer della scuola"],
+      "giusta": 0,
+      "spiegazione": "Gli strumenti di collaborazione permettono a più utenti di lavorare sullo stesso file in tempo reale (real time), da qualsiasi parte del mondo."
+    },
+    {
+      "id": "OC-002", "tipo": "scelta", "argomento": "1.1 Concetti fondamentali",
+      "testo": "Quale di questi è un vantaggio della collaborazione online per un lavoro di gruppo?",
+      "risposte": ["Non serve più parlare con i compagni del gruppo", "Si condividono file e calendari senza doversi incontrare", "Il lavoro viene corretto in automatico dall'insegnante", "Il computer fa da solo la parte di lavoro di ogni compagno"],
+      "giusta": 1,
+      "spiegazione": "Con gli strumenti online il gruppo condivide file e calendari, comunica facilmente e risparmia spostamenti. Il lavoro però va comunque fatto e discusso insieme."
+    },
+    {
+      "id": "OC-003", "tipo": "vf", "argomento": "1.1 Concetti fondamentali",
+      "testo": "Se nella presentazione di gruppo usi una foto trovata su Internet, devi controllare se puoi usarla e indicare da dove viene.",
+      "giusta": true,
+      "spiegazione": "Vero: foto e testi hanno un autore e sono protetti dal diritto d'autore (copyright). Prima di usarli controlla se è permesso e cita la fonte."
+    },
+    {
+      "id": "OC-004", "tipo": "scelta", "argomento": "1.2 Cloud Computing",
+      "testo": "Che cosa vuol dire usare il cloud computing (calcolo «nella nuvola»)?",
+      "risposte": ["Salvare i file soltanto sul disco interno del proprio computer", "Collegare tra loro i computer della stessa stanza con un cavo", "Usare programmi e spazio su server raggiungibili via Internet", "Copiare tutti i file su una chiavetta USB ogni sera"],
+      "giusta": 2,
+      "spiegazione": "Nel cloud computing file e programmi stanno sui server di un fornitore e tu li usi tramite Internet, da qualsiasi dispositivo."
+    },
+    {
+      "id": "OC-005", "tipo": "scelta", "argomento": "1.2 Cloud Computing",
+      "testo": "Quale di questi è un rischio del cloud computing?",
+      "risposte": ["I file salvati non si possono aprire dal telefono", "I programmi non ricevono più gli aggiornamenti", "Lo spazio a disposizione non si può aumentare", "Dipendi dal fornitore e da come protegge i dati"],
+      "giusta": 3,
+      "spiegazione": "Nel cloud dipendi dal fornitore (provider): se il servizio si blocca o non protegge bene i dati, la tua privacy è a rischio. Aggiornamenti automatici e spazio aumentabile sono invece vantaggi."
+    },
+    {
+      "id": "OC-006", "tipo": "scelta", "argomento": "2.1 Impostazione delle funzioni comuni",
+      "testo": "Per partecipare a una videolezione e parlare con l'insegnante, quali apparecchi ti servono?",
+      "risposte": ["Webcam, microfono e altoparlanti o cuffie", "Stampante, chiavetta USB e lettore di DVD", "Scanner, tavoletta grafica e proiettore", "Stampante, scanner e disco esterno"],
+      "giusta": 0,
+      "spiegazione": "La webcam manda la tua immagine, il microfono la tua voce e con altoparlanti o cuffie senti gli altri."
+    },
+    {
+      "id": "OC-007", "tipo": "vf", "argomento": "2.1 Impostazione delle funzioni comuni",
+      "testo": "Le regole di un firewall (muro di protezione) possono impedirti di collegarti a uno strumento di collaborazione online.",
+      "giusta": true,
+      "spiegazione": "Vero: il firewall blocca alcune connessioni per proteggere la rete. Se è molto restrittivo, per esempio nella rete della scuola, può bloccare anche una piattaforma per videochiamate."
+    },
+    {
+      "id": "OC-008", "tipo": "scelta", "argomento": "2.2 Impostazione",
+      "testo": "Hai smesso di usare un servizio online e non ti serve più. Che cosa conviene fare con il tuo account?",
+      "risposte": ["Lasciarlo aperto e non usarlo più per anni", "Disattivarlo o chiuderlo dalle impostazioni", "Cambiare solo la foto e il nome del profilo", "Disinstallare il browser dal tuo computer"],
+      "giusta": 1,
+      "spiegazione": "Un account che non usi più contiene comunque i tuoi dati: è meglio disattivarlo o eliminarlo dalle impostazioni dell'account del servizio."
+    },
+    {
+      "id": "OC-009", "tipo": "scelta", "argomento": "3.1 Memoria di massa online e produttività",
+      "testo": "Quale di questi è un servizio di memoria di massa online (archiviazione nel cloud)?",
+      "risposte": ["Google Maps", "Google Chrome", "Google Drive", "Google Traduttore"],
+      "giusta": 2,
+      "spiegazione": "Google Drive, come OneDrive o Dropbox, ti dà uno spazio online dove salvare e condividere file. Chrome è un browser, Maps e Traduttore sono altri servizi."
+    },
+    {
+      "id": "OC-010", "tipo": "scelta", "argomento": "3.1 Memoria di massa online e produttività",
+      "testo": "Quale limite può avere un servizio gratuito di archiviazione online?",
+      "risposte": ["Puoi salvare solo file di testo, ma non le foto", "Puoi aprire i file solo dallo stesso computer", "I file si cancellano quando spegni il computer", "C'è uno spazio massimo per i file che carichi"],
+      "giusta": 3,
+      "spiegazione": "I servizi gratuiti offrono uno spazio limitato, per esempio qualche gigabyte, e a volte hanno limiti sulle dimensioni dei file o sulla condivisione."
+    },
+    {
+      "id": "OC-011", "tipo": "scelta", "argomento": "3.1 Memoria di massa online e produttività",
+      "testo": "Condividi la tua ricerca nel cloud: vuoi che i compagni la leggano, ma senza poterla cambiare. Quale permesso scegli?",
+      "risposte": ["Il permesso di sola visualizzazione", "Il permesso di modifica del file", "Il permesso di proprietario del file", "Il permesso di commento e modifica"],
+      "giusta": 0,
+      "spiegazione": "Con la sola visualizzazione gli altri vedono il file ma non possono cambiarlo. Con la modifica, invece, potrebbero scriverci dentro."
+    },
+    {
+      "id": "OC-012", "tipo": "vf", "argomento": "3.1 Memoria di massa online e produttività",
+      "testo": "Se un compagno cancella per sbaglio una parte del documento online condiviso, non c'è modo di recuperarla.",
+      "giusta": false,
+      "spiegazione": "Falso: servizi come Documenti Google o Word per il Web tengono la cronologia delle versioni. Da lì puoi vedere e ripristinare una versione precedente del file."
+    },
+    {
+      "id": "OC-013", "tipo": "scelta", "argomento": "3.2 Calendari online",
+      "testo": "Vuoi che i compagni del gruppo vedano il calendario delle consegne e possano aggiungere date. Che cosa fai?",
+      "risposte": ["Mandi a tutti una foto del calendario", "Condividi il calendario con il permesso di modifica", "Condividi il calendario con la sola visualizzazione", "Stampi il calendario e lo appendi in classe"],
+      "giusta": 1,
+      "spiegazione": "Con il permesso di modifica i compagni vedono il calendario e possono aggiungere o cambiare eventi. Con la sola visualizzazione potrebbero solo guardarlo."
+    },
+    {
+      "id": "OC-014", "tipo": "scelta", "argomento": "3.2 Calendari online",
+      "testo": "L'allenamento di pallavolo è ogni martedì. Qual è il modo più comodo per inserirlo nel calendario online?",
+      "risposte": ["Crei a mano un evento nuovo all'inizio di ogni settimana", "Scrivi «ogni martedì» nel titolo di un evento", "Crei un evento e imposti la ripetizione settimanale", "Imposti un promemoria che suona tutti i giorni"],
+      "giusta": 2,
+      "spiegazione": "Un evento ripetuto (ricorrente) si crea una volta sola e poi compare da solo ogni settimana. Puoi anche aggiungergli un promemoria."
+    },
+    {
+      "id": "OC-015", "tipo": "scelta", "argomento": "3.2 Calendari online",
+      "testo": "Ricevi l'invito alla riunione del gruppo di scienze, ma quel giorno sei dal dentista. Che cosa fai?",
+      "risposte": ["Accetti l'invito e poi non ti presenti", "Elimini il calendario dal tuo account", "Cancelli l'evento dal calendario di tutti", "Rifiuti l'invito, così chi organizza lo sa"],
+      "giusta": 3,
+      "spiegazione": "Quando rifiuti un invito, chi ha organizzato l'evento riceve la tua risposta e sa che non ci sarai."
+    },
+    {
+      "id": "OC-016", "tipo": "scelta", "argomento": "3.3 Media sociali",
+      "testo": "Che cos'è un wiki?",
+      "risposte": ["Un sito che più persone possono scrivere e correggere insieme", "Un programma per fare videochiamate con tutti i compagni di classe", "Un tipo di file per salvare le foto ad alta qualità", "Un servizio per mandare messaggi a una sola persona"],
+      "giusta": 0,
+      "spiegazione": "In un wiki, come Wikipedia, gli utenti possono aggiungere e aggiornare le pagine su un argomento. È uno strumento di collaborazione online."
+    },
+    {
+      "id": "OC-017", "tipo": "scelta", "argomento": "3.3 Media sociali",
+      "testo": "Nel gruppo online della classe vuoi che solo gli iscritti leggano i messaggi. Che cosa imposti?",
+      "risposte": ["Un gruppo pubblico, visibile a tutti su Internet", "Un gruppo privato, a cui si entra solo su invito", "Un gruppo aperto, senza nessun amministratore", "Un gruppo pubblico con la foto della classe"],
+      "giusta": 1,
+      "spiegazione": "Nelle opzioni di privacy scegli chi può leggere e scrivere. Un gruppo privato con gli inviti lascia entrare solo le persone scelte."
+    },
+    {
+      "id": "OC-018", "tipo": "vf", "argomento": "3.3 Media sociali",
+      "testo": "Quando elimini un post da un social, puoi essere certo che nessuno lo potrà più vedere.",
+      "giusta": false,
+      "spiegazione": "Falso: prima che tu lo elimini, qualcuno può averlo condiviso o salvato con uno screenshot. Per questo è difficile far sparire del tutto un post."
+    },
+    {
+      "id": "OC-019", "tipo": "scelta", "argomento": "3.3 Media sociali",
+      "testo": "Sul forum della classe un compagno ha chiesto un consiglio. Come gli rispondi in modo che la risposta resti collegata alla sua domanda?",
+      "risposte": ["Scrivi un nuovo post con un titolo diverso", "Mandi un'email a tutti gli studenti della scuola", "Usi il pulsante «Rispondi» sotto il suo messaggio", "Carichi una foto del quaderno nel tuo profilo"],
+      "giusta": 2,
+      "spiegazione": "Con «Rispondi» il tuo messaggio compare sotto quello del compagno, nella stessa discussione, e tutti capiscono a che cosa rispondi."
+    },
+    {
+      "id": "OC-020", "tipo": "scelta", "argomento": "3.4 Riunioni online",
+      "testo": "Devi organizzare una riunione online con il gruppo di lavoro. Che cosa indichi quando la crei?",
+      "risposte": ["Solo il colore dello sfondo della chiamata", "Il numero di telefono di ogni compagno", "La password del computer di ogni compagno", "Data, ora e argomento, poi inviti i compagni"],
+      "giusta": 3,
+      "spiegazione": "Quando crei una riunione online, per esempio in Microsoft Teams o Google Meet, indichi data, ora e argomento e poi mandi l'invito ai partecipanti."
+    },
+    {
+      "id": "OC-021", "tipo": "scelta", "argomento": "3.4 Riunioni online",
+      "testo": "Durante una riunione online vuoi mostrare a tutti la presentazione aperta sul tuo computer. Quale funzione usi?",
+      "risposte": ["La condivisione dello schermo", "La chat scritta della riunione", "Lo spegnimento del microfono", "La sfocatura dello sfondo"],
+      "giusta": 0,
+      "spiegazione": "Con la condivisione dello schermo gli altri vedono quello che c'è sul tuo schermo. Quando hai finito, interrompi la condivisione."
+    },
+    {
+      "id": "OC-022", "tipo": "vf", "argomento": "3.4 Riunioni online",
+      "testo": "In una riunione online puoi spegnere il microfono e scrivere una domanda nella chat.",
+      "giusta": true,
+      "spiegazione": "Vero: puoi disattivare microfono e videocamera e usare la chat per scrivere, senza interrompere chi sta parlando."
+    },
+    {
+      "id": "OC-023", "tipo": "scelta", "argomento": "3.5 Ambienti di apprendimento online",
+      "testo": "Che cos'è un ambiente di apprendimento online (VLE o LMS)?",
+      "risposte": ["Un videogioco educativo da installare sul telefono", "Una piattaforma web per corsi, compiti e materiali", "Un motore di ricerca adatto solo agli studenti", "Una rete Wi-Fi riservata alle scuole italiane"],
+      "giusta": 1,
+      "spiegazione": "Piattaforme come Moodle o Google Classroom servono per seguire corsi, trovare materiali, consegnare compiti e vedere le valutazioni."
+    },
+    {
+      "id": "OC-024", "tipo": "scelta", "argomento": "3.5 Ambienti di apprendimento online",
+      "testo": "L'insegnante ha assegnato un compito sulla piattaforma online della scuola. Come consegni lì la tua ricerca?",
+      "risposte": ["Scrivi il titolo della ricerca nella chat", "Pubblichi il testo nella bacheca degli avvisi", "Carichi il file nella pagina del compito", "Mandi il file via messaggio a un compagno"],
+      "giusta": 2,
+      "spiegazione": "Nell'ambiente di apprendimento online carichi (upload) il file nel compito: così l'insegnante lo riceve e può valutarlo."
+    },
+    {
+      "id": "OC-025", "tipo": "vf", "argomento": "3.5 Ambienti di apprendimento online",
+      "testo": "Di solito in una piattaforma di apprendimento online trovi anche un calendario, una bacheca per gli avvisi e i risultati delle prove.",
+      "giusta": true,
+      "spiegazione": "Vero: tra le funzioni tipiche ci sono calendario, bacheca, chat, quiz, forum e registro delle valutazioni."
+    },
+    {
+      "id": "OC-026", "tipo": "scelta", "argomento": "4.1 Concetti fondamentali",
+      "testo": "Quali sono i sistemi operativi più diffusi su smartphone e tablet?",
+      "risposte": ["Windows e macOS", "Chrome ed Edge", "Wi-Fi e Bluetooth", "Android e iOS"],
+      "giusta": 3,
+      "spiegazione": "Android (di Google, usato da molte marche) e iOS (di Apple, sugli iPhone) sono i sistemi operativi mobili più diffusi. Windows e macOS si usano sui computer."
+    },
+    {
+      "id": "OC-027", "tipo": "scelta", "argomento": "4.1 Concetti fondamentali",
+      "testo": "A che cosa serve il Bluetooth?",
+      "risposte": ["A collegare senza fili dispositivi vicini", "A navigare su Internet da qualsiasi luogo", "A ricaricare la batteria del telefono", "A proteggere il telefono dai virus"],
+      "giusta": 0,
+      "spiegazione": "Il Bluetooth collega dispositivi a pochi metri di distanza, per esempio cuffie, altoparlanti o un altro telefono. Non serve per navigare su Internet."
+    },
+    {
+      "id": "OC-028", "tipo": "vf", "argomento": "4.1 Concetti fondamentali",
+      "testo": "Se hai fatto un backup dei dati del telefono, non serve più bloccare lo schermo con un PIN.",
+      "giusta": false,
+      "spiegazione": "Falso: backup e PIN servono a cose diverse. Il backup salva una copia dei dati, il PIN impedisce agli altri di usare il tuo telefono."
+    },
+    {
+      "id": "OC-029", "tipo": "scelta", "argomento": "4.2 Uso di dispositivi mobili",
+      "testo": "In stazione trovi con il tablet una rete Wi-Fi gratuita senza password. Che cosa è più prudente fare?",
+      "risposte": ["Collegarti e inserire le password dei tuoi account", "Evitare di inserire password e dati personali", "Condividere il nome della rete con tutti i contatti", "Togliere il PIN di blocco per fare più in fretta"],
+      "giusta": 1,
+      "spiegazione": "Su una rete Wi-Fi aperta altre persone potrebbero vedere i tuoi dati. Per entrare nei tuoi account usa una rete protetta o i dati mobili (4G, 5G)."
+    },
+    {
+      "id": "OC-030", "tipo": "scelta", "argomento": "4.2 Uso di dispositivi mobili",
+      "testo": "Vuoi mandare una foto della gita al compagno seduto accanto a te, senza usare Internet. Quale opzione puoi usare?",
+      "risposte": ["La posta elettronica", "Un social network", "Il Bluetooth", "La messaggistica istantanea"],
+      "giusta": 2,
+      "spiegazione": "Il Bluetooth (o sistemi simili come Quick Share e AirDrop) trasferisce file tra dispositivi vicini anche senza Internet. Email, social e app di messaggi invece hanno bisogno della connessione."
+    },
+    {
+      "id": "OC-031", "tipo": "scelta", "argomento": "4.2 Uso di dispositivi mobili",
+      "testo": "Sul telefono hai segnato nel calendario la verifica di storia, ma è stata spostata a giovedì. Che cosa fai?",
+      "risposte": ["Crei un secondo evento e lasci anche il primo", "Elimini l'evento e non lo segni da nessuna parte", "Cambi solo il titolo dell'evento in «spostata»", "Apri l'evento e cambi il giorno in giovedì"],
+      "giusta": 3,
+      "spiegazione": "Basta modificare l'evento che c'è già e cambiarne la data: così il calendario resta in ordine e il promemoria arriva il giorno giusto."
+    },
+    {
+      "id": "OC-032", "tipo": "scelta", "argomento": "4.3 Applicazioni",
+      "testo": "Da dove è più sicuro scaricare le app per il telefono?",
+      "risposte": ["Dallo store ufficiale, come Google Play o App Store", "Da un link ricevuto in un messaggio da uno sconosciuto", "Da un sito che offre gratis le app a pagamento", "Da un file mandato da un utente di un forum"],
+      "giusta": 0,
+      "spiegazione": "Gli store ufficiali (negozi di app) controllano le app prima di pubblicarle. Le app prese da link o siti sconosciuti possono contenere malware."
+    },
+    {
+      "id": "OC-033", "tipo": "vf", "argomento": "4.3 Applicazioni",
+      "testo": "Anche un'app gratuita può avere acquisti a pagamento al suo interno.",
+      "giusta": true,
+      "spiegazione": "Vero: molte app gratuite propongono acquisti in-app (dentro l'app), per esempio monete o livelli nei giochi. Prima di comprare chiedi a un genitore."
+    },
+    {
+      "id": "OC-034", "tipo": "scelta", "argomento": "4.3 Applicazioni",
+      "testo": "Perché è importante aggiornare le app sul telefono?",
+      "risposte": ["Per liberare spazio cancellando le foto", "Per avere correzioni di sicurezza e nuove funzioni", "Per passare a un sistema operativo diverso sul telefono", "Per ottenere più giga di traffico Internet"],
+      "giusta": 1,
+      "spiegazione": "Gli aggiornamenti correggono errori e falle di sicurezza e a volte aggiungono funzioni nuove. Puoi farli dallo store o attivare l'aggiornamento automatico."
+    },
+    {
+      "id": "OC-035", "tipo": "scelta", "argomento": "4.4 Sincronizzazione",
+      "testo": "A che cosa serve la sincronizzazione tra telefono e computer?",
+      "risposte": ["A cancellare i file doppi dal telefono", "A far funzionare il telefono senza batteria", "Ad avere gli stessi dati aggiornati su entrambi", "A collegare il telefono alla rete Wi-Fi di casa"],
+      "giusta": 2,
+      "spiegazione": "Con la sincronizzazione posta, contatti, calendario e file restano uguali su tutti i dispositivi: se aggiungi un evento sul telefono, lo vedi anche sul computer."
+    },
+    {
+      "id": "OC-036", "tipo": "scelta", "argomento": "4.4 Sincronizzazione",
+      "testo": "Aggiungi un evento al calendario del telefono, ma non compare sul computer. Che cosa controlli per primo?",
+      "risposte": ["Che la luminosità dello schermo sia al massimo", "Che il computer abbia una stampante collegata e accesa", "Che la suoneria del telefono sia accesa", "Che la sincronizzazione del calendario sia attiva"],
+      "giusta": 3,
+      "spiegazione": "Nelle impostazioni dell'account sul telefono scegli che cosa sincronizzare: posta, calendario, contatti. Se il calendario non è sincronizzato, l'evento resta solo sul telefono."
+    }
+  ],
+  "flashcard": [
+    { "id": "OC-F01", "fronte": "Cloud computing", "retro": "Calcolo «nella nuvola»: usare tramite Internet spazio e programmi che stanno sui server di un fornitore." },
+    { "id": "OC-F02", "fronte": "Real time", "retro": "In tempo reale: le modifiche si vedono subito, e tutti vedono gli stessi cambiamenti nello stesso momento." },
+    { "id": "OC-F03", "fronte": "Provider", "retro": "Fornitore: l'azienda che offre un servizio online, per esempio lo spazio nel cloud o la posta elettronica." },
+    { "id": "OC-F04", "fronte": "Plug-in", "retro": "Componente aggiuntivo: un piccolo programma da aggiungere a un'app o al browser per avere una funzione in più." },
+    { "id": "OC-F05", "fronte": "Upload / Download", "retro": "Caricare / scaricare. Upload: mandare un file dal tuo dispositivo a un servizio online. Download: copiare un file da Internet sul tuo dispositivo." },
+    { "id": "OC-F06", "fronte": "Version history", "retro": "Cronologia versioni: l'elenco delle versioni salvate di un file online. Puoi vederle e ripristinare una versione precedente." },
+    { "id": "OC-F07", "fronte": "Web app", "retro": "Applicazione web: un programma che usi direttamente nel browser senza installarlo, come Word per il Web o Documenti Google." },
+    { "id": "OC-F08", "fronte": "Wiki", "retro": "Sito che gli utenti possono scrivere e modificare insieme, come Wikipedia. Utile per una ricerca di classe." },
+    { "id": "OC-F09", "fronte": "Blog / Microblog", "retro": "Blog: diario online con articoli (post) in ordine di data. Microblog: messaggi molto brevi, spesso con foto o link." },
+    { "id": "OC-F10", "fronte": "VLE / LMS", "retro": "Virtual Learning Environment (ambiente di apprendimento virtuale) e Learning Management System (sistema di gestione dell'apprendimento): piattaforme per corsi online, come Moodle." },
+    { "id": "OC-F11", "fronte": "Bluetooth", "retro": "Tecnologia senza fili per collegare dispositivi vicini, come cuffie, altoparlanti o un altro telefono." },
+    { "id": "OC-F12", "fronte": "App store", "retro": "Negozio di app: il negozio online ufficiale da cui scaricare le app, come Google Play o App Store. Alcune app sono gratis, altre a pagamento." },
+    { "id": "OC-F13", "fronte": "Sync", "retro": "Sincronizzazione: tenere uguali e aggiornati gli stessi dati (posta, calendario, contatti, file) su più dispositivi." }
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "modulo": "word-processing",
+  "nome": "Word Processing",
+  "traduzione": "Elaborazione testi",
+  "colore": "#b78cff",
+  "icona": "documento",
+  "fonte": {
+    "documento": "ICDL Workforce - Word Processing - Syllabus 6.0, versione italiana (AICA, Ref. ECDL – M03V6.0IT)",
+    "versione": "6.0",
+    "url": "https://www.icdl.it/risorse/7465cfb1f73a8db6051e64a9.pdf"
+  },
+  "domande": [
+    {
+      "id": "WP-001", "tipo": "scelta", "argomento": "1.1 Lavorare con i documenti",
+      "testo": "Vuoi inviare il tuo tema in un formato che si vede uguale su ogni dispositivo ed è fatto per essere letto, non modificato. Quale formato scegli in «File > Salva con nome»?",
+      "risposte": ["Documento di Word (*.docx)", "PDF (*.pdf)", "Testo normale (*.txt)", "Modello di Word (*.dotx)"],
+      "giusta": 1,
+      "spiegazione": "Il PDF mantiene la stessa impaginazione su ogni computer o telefono ed è pensato per essere letto. Il .docx è il formato normale di Word, il .txt salva solo il testo, senza formattazione."
+    },
+    {
+      "id": "WP-002", "tipo": "scelta", "argomento": "1.1 Lavorare con i documenti",
+      "testo": "Vuoi preparare un biglietto di auguri già impaginato, senza partire da una pagina bianca. Cosa fai?",
+      "risposte": ["Scegli un modello in «File > Nuovo»", "Apri la visualizzazione «Bozza»", "Usi il comando «Salva con nome»", "Apri la visualizzazione «Layout di stampa»"],
+      "giusta": 0,
+      "spiegazione": "In «File > Nuovo» trovi i modelli (template): documenti già pronti, sul computer oppure online, che completi con il tuo testo. Anche «Documento vuoto» è un modello: quello predefinito."
+    },
+    {
+      "id": "WP-003", "tipo": "scelta", "argomento": "1.2 Migliorare la produttività",
+      "testo": "Stai leggendo un documento di 40 pagine e vuoi arrivare subito a pagina 25. Quale strumento usi?",
+      "risposte": ["Lo zoom al 200%", "Il comando «Sostituisci»", "Lo strumento «Vai»", "Il «Conteggio parole»"],
+      "giusta": 2,
+      "spiegazione": "Con lo strumento «Vai» (si apre anche con il tasto F5) scrivi il numero della pagina e Word ti porta lì. Lo zoom ingrandisce soltanto quello che vedi sullo schermo."
+    },
+    {
+      "id": "WP-004", "tipo": "vf", "argomento": "1.2 Migliorare la produttività",
+      "testo": "Se porti lo zoom al 200%, anche il testo stampato diventa due volte più grande.",
+      "giusta": false,
+      "spiegazione": "Falso: lo zoom cambia solo quanto vedi grande la pagina sullo schermo. Per avere un testo stampato più grande devi cambiare la dimensione del carattere."
+    },
+    {
+      "id": "WP-005", "tipo": "scelta", "argomento": "2.1 Inserire testo",
+      "testo": "Quale visualizzazione mostra la pagina come verrà stampata, con margini, intestazione e piè di pagina?",
+      "risposte": ["Bozza", "Struttura", "Modalità di lettura", "Layout di stampa"],
+      "giusta": 3,
+      "spiegazione": "«Layout di stampa» (scheda Visualizza) mostra la pagina come sarà sul foglio. «Bozza» mostra solo il testo, senza margini né intestazioni: è comoda per scrivere in fretta."
+    },
+    {
+      "id": "WP-006", "tipo": "scelta", "argomento": "2.1 Inserire testo",
+      "testo": "Devi scrivere il simbolo © (copyright), che non c'è sulla tastiera. Dove lo trovi?",
+      "risposte": ["Scheda Layout, pulsante «Colonne»", "Scheda Inserisci, pulsante «Simbolo»", "Scheda Revisione, pulsante «Traduci»", "Scheda Home, pulsante «Numerazione»"],
+      "giusta": 1,
+      "spiegazione": "In «Inserisci > Simbolo» trovi caratteri speciali come ©, ® e ™ che non hai sulla tastiera. Gli altri pulsanti servono a impaginare, tradurre o numerare."
+    },
+    {
+      "id": "WP-007", "tipo": "scelta", "argomento": "2.2 Selezionare, modificare",
+      "testo": "Nel tuo tema hai scritto tante volte «Romma» invece di «Roma». Qual è il modo più veloce per correggere tutto?",
+      "risposte": ["Cerchi ogni errore a occhio e lo correggi a mano", "Riscrivi da capo tutto il tema", "Usi «Sostituisci» e poi «Sostituisci tutto»", "Metti in corsivo le parole sbagliate"],
+      "giusta": 2,
+      "spiegazione": "In «Home > Sostituisci» scrivi la parola da cercare e quella giusta: «Sostituisci tutto» le corregge tutte insieme. Il corsivo cambia solo l'aspetto, non corregge l'errore."
+    },
+    {
+      "id": "WP-008", "tipo": "vf", "argomento": "3.2 Paragrafi",
+      "testo": "Per lasciare più spazio tra un paragrafo e l'altro, la cosa migliore è premere Invio più volte.",
+      "giusta": false,
+      "spiegazione": "Falso: è meglio impostare la spaziatura «Prima» e «Dopo» del paragrafo nella scheda Layout. Così lo spazio resta uguale anche quando modifichi il testo."
+    },
+    {
+      "id": "WP-009", "tipo": "scelta", "argomento": "3.3 Stili",
+      "testo": "Vuoi che tutti i titoli dei capitoli abbiano lo stesso aspetto e che sia facile cambiarli tutti insieme. Cosa usi?",
+      "risposte": ["Il pulsante «Margini» nella scheda Layout", "Il comando «Sostituisci» nella scheda Home", "Il pulsante «Orientamento» nella scheda Layout", "Lo stile «Titolo 1» nella scheda Home"],
+      "giusta": 3,
+      "spiegazione": "Uno stile, come «Titolo 1» nel gruppo Stili della scheda Home, dà a tutti i titoli lo stesso carattere, la stessa dimensione e lo stesso colore. Se modifichi lo stile, cambiano tutti i titoli insieme."
+    },
+    {
+      "id": "WP-010", "tipo": "vf", "argomento": "4.1 Creare una tabella",
+      "testo": "Se sei nell'ultima cella di una tabella e premi il tasto Tab, Word aggiunge una nuova riga in fondo.",
+      "giusta": true,
+      "spiegazione": "Vero: nell'ultima cella il tasto Tab crea una nuova riga. Puoi anche aggiungere righe e colonne con il tasto destro del mouse e il comando «Inserisci»."
+    },
+    {
+      "id": "WP-011", "tipo": "scelta", "argomento": "4.2 Formattare una tabella",
+      "testo": "In una tabella vuoi allargare una colonna perché il testo non ci sta. Cosa fai?",
+      "risposte": ["Trascini il bordo della colonna", "Aumenti lo zoom di tutto il documento", "Cambi l'orientamento della pagina", "Premi Invio più volte dentro la cella"],
+      "giusta": 0,
+      "spiegazione": "Trascinando con il mouse il bordo della colonna la rendi più larga o più stretta; allo stesso modo cambi l'altezza di una riga. Lo zoom cambia solo la vista sullo schermo."
+    },
+    {
+      "id": "WP-012", "tipo": "scelta", "argomento": "4.3 Oggetti grafici",
+      "testo": "Vuoi ingrandire un'immagine senza deformarla, cioè senza schiacciarla o allungarla. Quale maniglia trascini?",
+      "risposte": ["Una maniglia al centro di un lato", "La freccia circolare in alto", "Una maniglia in un angolo", "Il punto al centro dell'immagine"],
+      "giusta": 2,
+      "spiegazione": "Le maniglie negli angoli cambiano larghezza e altezza insieme, così le proporzioni dell'immagine restano giuste (per una forma tieni premuto Maiusc). Quelle a metà dei lati allungano o schiacciano l'immagine, la freccia circolare la ruota."
+    },
+    {
+      "id": "WP-013", "tipo": "scelta", "argomento": "5.1 Preparazione",
+      "testo": "Nella stampa unione (mail merge), che cos'è il «documento principale»?",
+      "risposte": ["La lettera con il testo uguale per tutti", "L'elenco con i nomi e gli indirizzi di tutti", "Il file di lettere creato alla fine", "La stampante che userai alla fine"],
+      "giusta": 0,
+      "spiegazione": "Il documento principale è la lettera (o il foglio di etichette) con il testo comune. L'elenco con nomi e indirizzi è la lista dei destinatari, da cui Word prende i dati."
+    },
+    {
+      "id": "WP-014", "tipo": "scelta", "argomento": "5.1 Preparazione",
+      "testo": "Vuoi mettere nella lettera il campo «Nome» preso dalla lista dei destinatari. In quale scheda trovi «Inserisci campo unione»?",
+      "risposte": ["Inserisci", "Lettere", "Riferimenti", "Revisione"],
+      "giusta": 1,
+      "spiegazione": "La scheda «Lettere» contiene i comandi della stampa unione: scegliere i destinatari, inserire i campi e unire. Al posto del campo, ogni lettera mostrerà il nome di una persona diversa."
+    },
+    {
+      "id": "WP-015", "tipo": "vf", "argomento": "5.2 Stampe",
+      "testo": "Alla fine della stampa unione Word può creare un nuovo documento con una lettera diversa per ogni persona della lista.",
+      "giusta": true,
+      "spiegazione": "Vero: con «Finalizza e unisci» (scheda Lettere) Word crea una lettera per ogni destinatario. Puoi aprirle in un nuovo documento («Modifica singoli documenti») oppure stamparle («Stampa documenti»), e lo stesso vale per le etichette."
+    },
+    {
+      "id": "WP-016", "tipo": "scelta", "argomento": "6.1 Impostazione",
+      "testo": "Vuoi girare la pagina in orizzontale per preparare un cartellone. In quale scheda trovi «Orientamento»?",
+      "risposte": ["Home", "Visualizza", "Revisione", "Layout"],
+      "giusta": 3,
+      "spiegazione": "Nella scheda «Layout» trovi «Orientamento» (verticale o orizzontale), «Margini» e «Dimensioni» della pagina. «Visualizza» cambia solo come vedi il documento sullo schermo."
+    },
+    {
+      "id": "WP-017", "tipo": "scelta", "argomento": "6.1 Impostazione",
+      "testo": "Vuoi che il nuovo capitolo inizi in cima alla pagina successiva. Qual è il modo corretto?",
+      "risposte": ["Inserisci un'interruzione di pagina", "Premi Invio finché arrivi alla pagina dopo", "Riduci i margini fino in fondo al foglio", "Aggiungi tanti spazi alla fine del testo"],
+      "giusta": 0,
+      "spiegazione": "L'interruzione di pagina («Inserisci > Interruzione di pagina», oppure Ctrl+Invio) porta il testo alla pagina dopo. Con tanti Invio, se cambi il testo sopra, il capitolo si sposta."
+    },
+    {
+      "id": "WP-018", "tipo": "vf", "argomento": "6.1 Impostazione",
+      "testo": "Per numerare le pagine devi scrivere a mano il numero in fondo a ogni pagina.",
+      "giusta": false,
+      "spiegazione": "Falso: con «Inserisci > Numero di pagina» Word mette il numero nell'intestazione o nel piè di pagina e lo aggiorna da solo su ogni pagina."
+    },
+    {
+      "id": "WP-P01", "tipo": "pratico", "argomento": "3.1 Testo", "ricetta": "grassetto-parola",
+      "parametri": { "frase": 3 },
+      "spiegazione": "Seleziona la parola e premi «Grassetto (Ctrl+G)» nella scheda Home. Il grassetto cambia solo il testo selezionato."
+    },
+    {
+      "id": "WP-P02", "tipo": "pratico", "argomento": "3.2 Paragrafi", "ricetta": "allinea",
+      "parametri": { "frase": 1, "allineamento": "centro" },
+      "spiegazione": "Premi «Centra» nella scheda Home. L'allineamento vale per tutto il paragrafo, quindi non serve selezionare il testo."
+    },
+    {
+      "id": "WP-P03", "tipo": "pratico", "argomento": "3.1 Testo", "ricetta": "corsivo-parola",
+      "parametri": { "frase": 5 },
+      "spiegazione": "Seleziona la parola e premi «Corsivo (Ctrl+I)» nella scheda Home: le lettere diventano inclinate. Cambia solo il testo selezionato."
+    },
+    {
+      "id": "WP-P04", "tipo": "pratico", "argomento": "3.1 Testo", "ricetta": "sottolinea-parola",
+      "parametri": { "frase": 8 },
+      "spiegazione": "Seleziona la parola e premi «Sottolineato (Ctrl+S)» nella scheda Home: sotto la parola compare una linea."
+    },
+    {
+      "id": "WP-P05", "tipo": "pratico", "argomento": "3.1 Testo", "ricetta": "dimensione-carattere",
+      "parametri": { "frase": 2, "verso": "aumenta" },
+      "spiegazione": "Seleziona la parola e premi «Aumenta dimensione carattere» nella scheda Home: il carattere passa alla misura più grande successiva. Puoi anche scegliere un numero nella casella della dimensione."
+    },
+    {
+      "id": "WP-P06", "tipo": "pratico", "argomento": "3.1 Testo", "ricetta": "dimensione-carattere",
+      "parametri": { "frase": 10, "verso": "riduci" },
+      "spiegazione": "Seleziona la parola e premi «Riduci dimensione carattere» nella scheda Home: il carattere passa alla misura più piccola precedente. Le altre parole restano come prima."
+    },
+    {
+      "id": "WP-P07", "tipo": "pratico", "argomento": "3.2 Paragrafi", "ricetta": "allinea",
+      "parametri": { "frase": 4, "allineamento": "destra" },
+      "spiegazione": "Premi «Allinea testo a destra» nella scheda Home: ogni riga finisce sul margine destro. Vale per tutto il paragrafo."
+    },
+    {
+      "id": "WP-P08", "tipo": "pratico", "argomento": "3.2 Paragrafi", "ricetta": "allinea",
+      "parametri": { "frase": 7, "allineamento": "giustificato" },
+      "spiegazione": "Premi «Giustifica» nella scheda Home: Word allarga gli spazi tra le parole, così ogni riga (tranne l'ultima) tocca tutti e due i margini."
+    },
+    {
+      "id": "WP-P09", "tipo": "pratico", "argomento": "3.2 Paragrafi", "ricetta": "elenco-puntato",
+      "parametri": { "frase": 6, "tipo": "puntato" },
+      "spiegazione": "Premi «Elenchi puntati» nella scheda Home: davanti al paragrafo compare un punto. Con la freccia accanto al pulsante puoi scegliere un altro simbolo."
+    },
+    {
+      "id": "WP-P10", "tipo": "pratico", "argomento": "3.2 Paragrafi", "ricetta": "elenco-puntato",
+      "parametri": { "frase": 9, "tipo": "numerato" },
+      "spiegazione": "Premi «Numerazione» nella scheda Home: davanti al paragrafo compare un numero. Quando premi Invio, il paragrafo nuovo riceve il numero successivo."
+    },
+    {
+      "id": "WP-P11", "tipo": "pratico", "argomento": "1.1 Lavorare con i documenti", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "word", "comando": "salva" },
+      "spiegazione": "«Salva» è nella scheda File e anche nella barra di accesso rapido, in alto. Con «Salva con nome» invece scegli un nuovo nome o un altro posto, sul computer o online, per esempio OneDrive (se il file è su OneDrive con il salvataggio automatico attivo, al posto di «Salva con nome» trovi «Salva una copia»)."
+    },
+    {
+      "id": "WP-P12", "tipo": "pratico", "argomento": "2.2 Selezionare, modificare", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "word", "comando": "annulla" },
+      "spiegazione": "«Annulla» (Ctrl+Z) è all'inizio della scheda Home e nella barra di accesso rapido: toglie l'ultima modifica. «Ripeti» (Ctrl+Y; nel syllabus si chiama «Ripristina») rifà quello che hai appena annullato."
+    },
+    {
+      "id": "WP-P13", "tipo": "pratico", "argomento": "2.2 Selezionare, modificare", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "word", "comando": "copia" },
+      "spiegazione": "«Copia» (Ctrl+C) è nella scheda Home, gruppo Appunti: copia il testo selezionato e lo lascia dov'è. Per spostarlo invece usi «Taglia» e poi «Incolla»."
+    },
+    {
+      "id": "WP-P14", "tipo": "pratico", "argomento": "2.2 Selezionare, modificare", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "word", "comando": "incolla" },
+      "spiegazione": "«Incolla» (Ctrl+V) è nella scheda Home, gruppo Appunti: mette il testo copiato o tagliato dove si trova il cursore, anche in un altro documento aperto."
+    },
+    {
+      "id": "WP-P15", "tipo": "pratico", "argomento": "4.1 Creare una tabella", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "word", "comando": "tabella" },
+      "spiegazione": "Nella scheda Inserisci premi «Tabella» e scegli quante righe e colonne vuoi, muovendoti sulla griglia di quadratini."
+    },
+    {
+      "id": "WP-P16", "tipo": "pratico", "argomento": "4.3 Oggetti grafici", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "word", "comando": "immagine" },
+      "spiegazione": "Nella scheda Inserisci premi «Immagini» e poi «Questo dispositivo» per scegliere una foto salvata sul computer. Dopo puoi spostarla e ridimensionarla."
+    },
+    {
+      "id": "WP-P17", "tipo": "pratico", "argomento": "6.2 Controllo e stampa", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "word", "comando": "ortografia" },
+      "spiegazione": "Nella scheda Revisione premi «Editor» o «Controllo ortografia e grammatica» (oppure il tasto F7). Per ogni parola segnalata puoi correggerla, ignorarla o aggiungerla al dizionario."
+    },
+    {
+      "id": "WP-P18", "tipo": "pratico", "argomento": "6.2 Controllo e stampa", "ricetta": "trova-pulsante",
+      "parametri": { "programma": "word", "comando": "stampa" },
+      "spiegazione": "In «File > Stampa» vedi l'anteprima del documento e scegli quante copie e quali pagine stampare. Poi premi il pulsante «Stampa»."
+    }
+  ],
+  "flashcard": [
+    { "id": "WP-F01", "fronte": "Sillabazione", "retro": "Divide in sillabe con un trattino le parole lunghe a fine riga. La attivi in «Layout > Sillabazione > Automatica»." },
+    { "id": "WP-F02", "fronte": "Colore carattere", "retro": "Pulsante «Colore carattere» (una A con una riga colorata sotto) nella scheda Home: cambia il colore del testo selezionato. La freccia accanto apre tutti i colori." },
+    { "id": "WP-F03", "fronte": "Maiuscole/minuscole", "retro": "Pulsante «Maiuscole/minuscole» (Aa) nella scheda Home: trasforma il testo selezionato, per esempio in TUTTO MAIUSCOLO, tutto minuscolo o Iniziali Maiuscole." },
+    { "id": "WP-F04", "fronte": "Caratteri non stampabili", "retro": "Segni che vedi sullo schermo ma che non vengono stampati, come ¶ (fine paragrafo) e i puntini degli spazi. Li mostri o nascondi con il pulsante ¶ della scheda Home, gruppo Paragrafo." },
+    { "id": "WP-F05", "fronte": "Copia formato", "retro": "Pulsante a forma di pennello nella scheda Home: copia la formattazione di un testo (carattere, colore, grassetto…) e la applica a un altro testo." },
+    { "id": "WP-F06", "fronte": "Interlinea", "retro": "Spazio tra una riga e l'altra dello stesso paragrafo: singola, 1,5 o doppia. La scegli con il pulsante «Interlinea e spaziatura paragrafo» nella scheda Home." },
+    { "id": "WP-F07", "fronte": "Apice e pedice", "retro": "L'apice scrive piccolo e in alto (m²), il pedice piccolo e in basso (H₂O). I due pulsanti sono nella scheda Home." },
+    { "id": "WP-F08", "fronte": "Hyperlink", "retro": "Collegamento ipertestuale: un testo che, se lo clicchi, apre una pagina web o un altro punto del documento. Lo aggiungi con «Inserisci > Collegamento»." },
+    { "id": "WP-F09", "fronte": "Rientro", "retro": "Spazio in più tra il margine e il paragrafo. Può essere a sinistra, a destra, solo sulla prima riga oppure sporgente (la prima riga resta più a sinistra e le altre rientrano)." },
+    { "id": "WP-F10", "fronte": "Tabulazione", "retro": "Punto fisso sul righello dove salta il cursore quando premi il tasto Tab. Serve ad allineare il testo in colonna senza usare tanti spazi." },
+    { "id": "WP-F11", "fronte": "Bordi e sfondo", "retro": "Nella scheda Home il pulsante «Bordi» mette una cornice intorno al paragrafo (puoi scegliere stile, colore e spessore della linea) e «Sfondo» lo colora. Funzionano anche sulle celle di una tabella." },
+    { "id": "WP-F12", "fronte": "Header / Footer", "retro": "Intestazione / piè di pagina: le zone in alto e in basso di ogni pagina, per il testo che si ripete, come il titolo, la data o il numero di pagina." }
+  ]
+}
